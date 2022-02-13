@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: revisado1.aux
+The style file: seg.bst
+Database file #1: Referencias.bib
+I was expecting a `,' or a `}'---line 9 of file Referencias.bib
+ :  issn = {1809-4511}, pages = {269--274} 
+ :                                         url = {https://www.sbgf.org.br/revista/index.php/rbgf/article/view/1495}
+I'm skipping whatever remains of this entry
+Warning--empty journal in tempopercurso
+Warning--empty chapter in rawlison
+Warning--empty publisher in rawlison
+You can't pop an empty literal stack for entry rawlison
+while executing---line 1586 of file seg.bst
+Warning--empty publisher in santamarina1998introduction
+Warning--empty journal in strang1980linear
+You've used 21 entries,
+            2639 wiz_defined-function locations,
+            820 strings with 9444 characters,
+and the built_in function-call counts, 7806 in all, are:
+= -- 837
+> -- 259
+< -- 19
++ -- 86
+- -- 82
+* -- 632
+:= -- 1342
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 145
+chr.to.int$ -- 21
+cite$ -- 26
+duplicate$ -- 308
+empty$ -- 591
+format.name$ -- 117
+if$ -- 1620
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 26
+newline$ -- 67
+num.names$ -- 63
+pop$ -- 138
+preamble$ -- 1
+purify$ -- 146
+quote$ -- 0
+skip$ -- 241
+stack$ -- 0
+substring$ -- 549
+swap$ -- 35
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 116
+warning$ -- 5
+while$ -- 66
+width$ -- 0
+write$ -- 222
+(There were 2 error messages)

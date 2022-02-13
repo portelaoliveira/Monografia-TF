@@ -1,0 +1,33 @@
+\BOOKMARK [1][-]{section*.1}{Lista de Figuras}{}% 1
+\BOOKMARK [1][-]{section*.2}{Lista de Tabelas}{}% 2
+\BOOKMARK [1][-]{section*.3}{Sum\341rio}{}% 3
+\BOOKMARK [1][-]{section.1}{Introdu\347\343o}{}% 4
+\BOOKMARK [1][-]{section.2}{Fundamenta\347\343o Te\363rica}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Formulando problemas inversos}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Forma linear impl\355cita}{subsection.2.1}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Forma expl\355cita}{subsection.2.1}% 8
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Forma linear expl\355cita}{subsection.2.1}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Exemplos de formula\347\343o de problemas inversos}{subsection.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.2}{O Problema Linear Inverso}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.3}{Tomografia}{section.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Tomografia s\355smica por tempo de percurso}{subsection.2.3}% 13
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Reconstru\347\343o na tomografia s\355smica de tempo de percurso}{subsection.2.3}% 14
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Problema Direto}{subsection.2.3}% 15
+\BOOKMARK [3][-]{subsubsection.2.3.4}{Problema Inverso}{subsection.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.4}{Modelos \(Representa\347\343o da Estrutura\)}{section.2}% 17
+\BOOKMARK [2][-]{subsection.2.5}{Matriz de percurso dos raios}{section.2}% 18
+\BOOKMARK [2][-]{subsection.2.6}{Matriz de cobertura espacial}{section.2}% 19
+\BOOKMARK [2][-]{subsection.2.7}{Condicionamento de uma matriz}{section.2}% 20
+\BOOKMARK [2][-]{subsection.2.8}{Regulariza\347\343o}{section.2}% 21
+\BOOKMARK [1][-]{section.3}{Materiais e M\351todos}{}% 22
+\BOOKMARK [2][-]{subsection.3.1}{\301rea de Estudo}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.2}{Frente te\363rica-computacional}{section.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Recursos computacionais}{subsection.3.2}% 25
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Estrutura do Software}{subsection.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.3}{Etapa experimental - Aquisi\347\343o em local com alvo conhecido}{section.3}% 27
+\BOOKMARK [1][-]{section.4}{Resultados e Discuss\343o}{}% 28
+\BOOKMARK [2][-]{subsection.4.1}{Dados sint\351ticos - Estudos de casos}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.2}{Dados de campo - Processamento e invers\343o dos dados s\355smicos}{section.4}% 30
+\BOOKMARK [1][-]{section.5}{Conclus\365es}{}% 31
+\BOOKMARK [1][-]{section*.14}{Refer\352ncias Bibliogr\341ficas}{}% 32
+\BOOKMARK [1][-]{appendix.A}{C\363digo do software}{}% 33

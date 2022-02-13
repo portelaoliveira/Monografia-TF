@@ -1,0 +1,97 @@
+\begin{thebibliography}{}
+\itemsep0pt
+
+\bibitem[Axelsson, 1994]{Axelsson}
+Axelsson, O.,  1994, Iterative solution methods.: Cambridge University Press.
+
+\bibitem[Bording et~al., 1987]{bording1987applications}
+Bording, R.~P., A. Gersztenkorn, L.~R. Lines, J.~A. Scales, e S. Treitel,
+  1987, Applications of seismic travel-time tomography: Geophysical Journal
+  International, {\bf 90}, 285--303.
+
+\bibitem[Branham, 1990]{branham1990introduction}
+Branham, R.~L.,  1990, Introduction to overdetermined systems, {\it in}
+  Scientific Data Analysis: Springer,  67--83.
+
+\bibitem[Cao e Greenhalgh, 1995]{cao1995relative}
+Cao, S., e S. Greenhalgh,  1995, Relative-error-based non-linear inversion:
+  Application to seismic traveltime tomography: Geophysical Journal
+  International, {\bf 121}, 684--694.
+
+\bibitem[Computations, 1989]{computations1989johns}
+Computations, M.,  1989, Johns hopkins univ: Press, Baltimore, MD.
+
+\bibitem[Fernandez, 2000]{fernandez2000tomographic}
+Fernandez, A.~L.,  2000, Tomographic imaging the state of stress: Georgia
+  Institute of Technology.
+
+\bibitem[Gabriela Félix~Brião, 2005]{tempopercurso}
+Gabriela Félix~Brião, P. D. J. P.~Z.,  2005, Tomografia sísmica por tempo de
+  percurso: Modelagem, métodos numéricos e implementação.
+
+\bibitem[Imhof, 2007]{imhof2007caracterizacion}
+Imhof, A.,  2007, Caracterizaci{\'o}n de arenas y gravas con ondas
+  el{\'a}sticas: Tomograf{\'\i}a s{\'\i}smica en cross hole: XIV First Prize
+  Award Fundaci{\'o}n Garcia Si{\~n}{\'e}riz for the Best Doctoral Thesis in
+  Pure or Applied Geophysics.
+
+\bibitem[Imhof e Calvo, 2018]{RBGf1495}
+Imhof, A.~L., e C.~A. Calvo,  2018, A variational formulation to image
+  inclusions in 2d travel time cross hole tomography: Brazilian Journal of
+  Geophysics, {\bf 21}, 269--274.
+
+\bibitem[Menke, 1984]{menke1984geophysical}
+Menke, W.,  1984, Geophysical data analysis: Discrete inverse theory: Academic
+  press.
+
+\bibitem[Natterer e W{\"u}bbeling, 2001]{natterer2001mathematical}
+Natterer, F., e F. W{\"u}bbeling,  2001, Mathematical methods in image
+  reconstruction: SIAM.
+
+\bibitem[Rawlinson et~al., 2010]{rawlinson2010seismic}
+Rawlinson, N., S. Pozgay, e S. Fishwick,  2010, Seismic tomography: a window
+  into deep earth: Physics of the Earth and Planetary Interiors, {\bf 178},
+  101--135.
+
+\bibitem[Rawlinson e Sambridge, 2003]{rawlison}
+Rawlinson, N., e M. Sambridge,  2003, {\it in} Seismic traveltime tomography of
+  the crust and lithosphere, {\bf 46},  81--198.
+
+\bibitem[Reis~Rodrigues e Bassrei, 2015]{reis2015aplicaccao}
+Reis~Rodrigues, V. H.~S., e A. Bassrei,  2015, Aplica{\c{c}}{\~a}o da
+  tomografia de tempos de tr{\^a}nsito a dados do campo de miranga, bacia do
+  rec{\^o}ncavo: 14th International Congress of the Brazilian Geophysical
+  Society \& EXPOGEF, Rio de Janeiro, Brazil, 3-6 August 2015, Brazilian
+  Geophysical Society, 1185--1190.
+
+\bibitem[R{\"o}hm et~al., 2000]{rohm2000effects}
+R{\"o}hm, A.~H., H. Bijwaard, W. Spakman, e J. Trampert,  2000, Effects of
+  arrival time errors on traveltime tomography: Geophysical Journal
+  International, {\bf 142}, 270--276.
+
+\bibitem[Santamarina e Fratta, 1998]{santamarina1998introduction}
+Santamarina, J.~C., e D. Fratta,  1998, Introduction to discrete signals and
+  inverse problems in civil engineering.
+
+\bibitem[Scales et~al., 1988]{scales1988fast}
+Scales, J.~A., A. Gersztenkorn, e S. Treitel,  1988, Fast ip solution of large,
+  sparse, linear systems: Application to seismic travel time tomography:
+  Journal of Computational Physics, {\bf 75}, 314--333.
+
+\bibitem[Strang, 1980]{strang1980linear}
+Strang, G.,  1980, Linear algebra and its applications.
+
+\bibitem[Wang et~al., 2000]{wang2000seismic}
+Wang, Y., R.~E. White, e R.~G. Pratt,  2000, Seismic amplitude inversion for
+  interface geometry: practical approach for application: Geophysical Journal
+  International, {\bf 142}, 162--172.
+
+\bibitem[Worthington, 1984]{worthington1984introduction}
+Worthington, M.,  1984, An introduction to geophysical tomography: First Break,
+  {\bf 2}.
+
+\bibitem[Zhou e Greenhalgh, 2003]{zhou2003crosshole}
+Zhou, B., e S.~A. Greenhalgh,  2003, Crosshole seismic inversion with
+  normalized full-waveform amplitude data: Geophysics, {\bf 68}, 1320--1330.
+
+\end{thebibliography}
