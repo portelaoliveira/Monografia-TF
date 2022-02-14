@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.20)  13 FEB 2022 12:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.20)  13 FEB 2022 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1242,14 +1242,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1222.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1222.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1222.
 
-
-Package rerunfilecheck Warning: File `revisado1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `revisado1.out':
-(rerunfilecheck)             Before: E85BF7E165F2C908709AEAFE1C42102A;2536
-(rerunfilecheck)             After:  585F1288C7393B40C582BBE513FC746F;2536.
+Package rerunfilecheck Info: File `revisado1.out' has not changed.
+(rerunfilecheck)             Checksum: 585F1288C7393B40C582BBE513FC746F;2536.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -1280,7 +1274,7 @@ are/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 sx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/sha
 re/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on revisado1.pdf (36 pages, 1236456 bytes).
+Output written on revisado1.pdf (36 pages, 1236449 bytes).
 PDF statistics:
  719 PDF objects out of 1000 (max. 8388607)
  609 compressed objects within 7 object streams
