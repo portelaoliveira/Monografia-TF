@@ -29,6 +29,10 @@ Fernandez, A.~L.,  2000, Tomographic imaging the state of stress: Georgia
 Gabriela Félix~Brião, P. D. J. P.~Z.,  2005, Tomografia sísmica por tempo de
   percurso: Modelagem, métodos numéricos e implementação.
 
+\bibitem[Hunter, 2007]{matplotlib}
+Hunter, J.~D.,  2007, Matplotlib: A 2d graphics environment: Computing in
+  Science Engineering, {\bf 9}, 90--95.
+
 \bibitem[Imhof, 2007]{imhof2007caracterizacion}
 Imhof, A.,  2007, Caracterizaci{\'o}n de arenas y gravas con ondas
   el{\'a}sticas: Tomograf{\'\i}a s{\'\i}smica en cross hole: XIV First Prize
@@ -68,6 +72,11 @@ Reis~Rodrigues, V. H.~S., e A. Bassrei,  2015, Aplica{\c{c}}{\~a}o da
 R{\"o}hm, A.~H., H. Bijwaard, W. Spakman, e J. Trampert,  2000, Effects of
   arrival time errors on traveltime tomography: Geophysical Journal
   International, {\bf 142}, 270--276.
+
+\bibitem[R\"ucker et~al., 2017]{Ruecker2017}
+R\"ucker, C., T. G\"unther, e F.~M. Wagner,  2017, {pyGIMLi}: An open-source
+  library for modelling and inversion in ,→ geophysics: Computers and
+  Geosciences, {\bf 109}, 106--123.
 
 \bibitem[Santamarina e Fratta, 1998]{santamarina1998introduction}
 Santamarina, J.~C., e D. Fratta,  1998, Introduction to discrete signals and

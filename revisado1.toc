@@ -24,11 +24,12 @@
 \contentsline {subsection}{\numberline {3.1}Área de Estudo}{28}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Frente teórica-computacional}{29}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Recursos computacionais}{29}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Estrutura do \emph {Software}}{30}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2}pyGIMLi: Uma biblioteca de código aberto para modelagem e inversão em Geofísica}{29}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Estrutura do \emph {Software}}{30}{subsubsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.3}Etapa experimental - Aquisição em local com alvo conhecido}{30}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Resultados e Discussão}{32}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Dados sintéticos - Estudos de casos}{32}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Dados de campo - Processamento e inversão dos dados sísmicos}{33}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Conclusões}{34}{section.5}%
-\contentsline {section}{Refer\^encias Bibliogr\'aficas}{35}{section*.14}%
+\contentsline {section}{Refer\^encias Bibliogr\'aficas}{35}{section*.15}%
 \contentsline {section}{\numberline {A}Código do \emph {software}}{36}{appendix.A}%

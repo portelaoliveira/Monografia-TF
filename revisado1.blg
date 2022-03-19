@@ -14,45 +14,45 @@ You can't pop an empty literal stack for entry rawlison
 while executing---line 1586 of file seg.bst
 Warning--empty publisher in santamarina1998introduction
 Warning--empty journal in strang1980linear
-You've used 21 entries,
+You've used 23 entries,
             2639 wiz_defined-function locations,
-            820 strings with 9444 characters,
-and the built_in function-call counts, 7806 in all, are:
-= -- 837
-> -- 259
-< -- 19
-+ -- 86
-- -- 82
-* -- 632
-:= -- 1342
-add.period$ -- 21
-call.type$ -- 21
-change.case$ -- 145
-chr.to.int$ -- 21
-cite$ -- 26
-duplicate$ -- 308
-empty$ -- 591
-format.name$ -- 117
-if$ -- 1620
+            837 strings with 9848 characters,
+and the built_in function-call counts, 8572 in all, are:
+= -- 921
+> -- 284
+< -- 20
++ -- 94
+- -- 90
+* -- 699
+:= -- 1475
+add.period$ -- 23
+call.type$ -- 23
+change.case$ -- 159
+chr.to.int$ -- 23
+cite$ -- 28
+duplicate$ -- 336
+empty$ -- 649
+format.name$ -- 127
+if$ -- 1777
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 26
-newline$ -- 67
-num.names$ -- 63
-pop$ -- 138
+missing$ -- 28
+newline$ -- 73
+num.names$ -- 69
+pop$ -- 147
 preamble$ -- 1
-purify$ -- 146
+purify$ -- 160
 quote$ -- 0
-skip$ -- 241
+skip$ -- 262
 stack$ -- 0
-substring$ -- 549
-swap$ -- 35
+substring$ -- 613
+swap$ -- 37
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
+type$ -- 128
 warning$ -- 5
-while$ -- 66
+while$ -- 73
 width$ -- 0
-write$ -- 222
+write$ -- 244
 (There were 2 error messages)

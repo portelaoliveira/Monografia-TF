@@ -815,23 +815,24 @@ Frequentemente no caso da tomografia por tempo de percurso a matriz $M$ (associa
 
 \subsection{Área de Estudo}
 
-\blindtext 
-%
-\blindtext 
-%
-\blindtext
+Para desenvolver a metodologia de tomografia sísmica para aquisição e processamento de dados em profundidades rasas (menores que 20 metros), inicialmente foi desenvolvido a técnica de maneira sintética e depois realizado uma aquisição em local com alvo conhecido, buscando otimizar os parâmetros de aquisição, e para calibrar as etapas de processamento. Tendo isso em vista, um alvo com dimensões e geometria conhecida foi instalado na área nos fundos do Observatório Sismológico no Campus Darcy Ribeiro da Universidade de Brasília (UnB), como pode ser observado na Figura~\ref{area_estudo} (página~\pageref{area_estudo}).
+Como resultado, são gerados mapas de anomalias de velocidade que representa o alvo enterrado, e com isso, estabelecer um esquema de aquisição que permita resolver o alvo.
 
+\begin{figure}[!hbtp]
+	\begin{center}
+		\includegraphics[scale=0.087]{Figuras/area-estudo.png}
+	\end{center}
+	\caption{Área de estudo nos fundos do Observatório Sismológico no Campus Darcy Ribeiro da Universidade de Brasília (UnB). A) Delimitando a área de estudo para a implantação do alvo. B) Imagem de satélite do Google Earth mostrando a localização da área de estudo (em vermelho).}
+	\label{area_estudo}
+\end{figure}
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \clearpage
 
 \subsection{Frente teórica-computacional}
 
-\blindtext 
-%
-\blindtext 
-%
-\blindtext
+O trabalho foi elaborado em duas frentes: Uma teórico-computacional e outra experimental. Na frente teórico-computacional realizamos o desenvolvimento de rotinas computacionais para inversão dos dados de tempo de percurso (utilizando o tempo de chegada da onda direta). Utilizou-se de conceitos de inversão por mínimos quadrados com algum nível de regularização para controlar a ambiguidade do modelo de parâmetros (velocidade/vagarosidade). A estrutura computacional se necessária seria fornecida pelo Observatório Sismológico da UnB, e os programas/linguagens de programação utilizados são de código aberto (como Python, Matlab, Shellscript, etc). Elaborou-se modelos sintéticos com posição e propriedades físicas conhecidas das estruturas a serem simuladas. Os ajustes que por ventura sejam necessários foram incluídas no problema inverso, ou ainda, no esquema de aquisição. 
 
 \begin{comment}
 \begin{table}[!hbtp]
@@ -865,11 +866,18 @@ Taxa de amostragem                                     & 0.25 ms                
 
 \subsubsection{Recursos computacionais}
 
-\blindtext 
-%
-\blindtext 
-%
-\blindtext
+Para a construção da rotina computacional, tanto para o desenvolvimento da etapa de gerar dados sintéticos com também para a etapa de processar os dados de campo para obter os mapas de tomografia sísmica, usamos a linguagem de programação Python. Ainda mais, é uma linguagem de programação de alto nível, ou seja, com sintaxe mais simplificada e próxima da linguagem humana, utilizada nas mais diversas aplicações, como desktop, web, servidores e ciência de dados e mais especificadamente com a biblioteca pyGIMLI, a utilização dessa linguagem atualmente encontra-se em crescimento no ramo da Geofísica no que diz respeito ao desenvolvimento de diversas rotinas de processamentos, utilizando-se dos conceitos dos métodos Geofísicos.
+
+
+Por outro lado, pyGIMLi é uma biblioteca de código aberto para modelagem e inversão em Geofísica(\citealp{Ruecker2017}). A biblioteca orientada a objetos fornece gerenciamento para malhas estruturadas e não estruturadas em 2D e 3D. Uma tarefa principal do pyGIMli é realizar inversão. Vários tipos de regularização em malhas (1D, 2D, 3D) com disposição regular ou irregular estão disponíveis. Existe um controle flexível de todos os parâmetros de inversão. A estrutura de inversão padrão é baseada no método generalizado de Gauss-Newton. O pyGIMLi vem com vários operadores Geofísicos avançados, que podem ser usados diretamente para um determinado problema.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{pyGIMLi: Uma biblioteca de código aberto para modelagem e inversão em Geofísica}
+
+Para que fosse possível o desenvolvimento do \textit{software}, as principais bibliotecas usadas foram o Matplotlib, Numpy e o pyGIMLi. O Matplotlib é um pacote de gráficos 2D usado em Python para desenvolvimento de aplicativos, scripts interativos e geração de imagens com qualidade de publicação em interfaces de usuário e sistemas operacionais (ver mais em \citealp{matplotlib}). No mundo Python, o NumPy é o pacote fundamental para computação científica. É uma biblioteca Python que fornece um objeto array multidimensional, vários objetos derivados (como arrays e matrizes) e uma variedade de rotinas para operações rápidas em arrays, incluindo matemática, lógica, manipulação de formas, classificação, seleção, I/O , transformadas discretas de Fourier, álgebra linear básica, operações estatísticas básicas e simulação aleatória (ver mais em \textit{\url{https://numpy.org/doc/1.22/}}).
+
+Já o pyGIMLi, oferece uma vantagem distinta em que pode ser facilmente estendido por módulos compilados de C ou Fortran, por exemplo, permitindo aos usuários estender o código licenciado ou terceirizar partes demoradas em extensões computacionalmente eficientes. Realiza-se o uso dessa flexibilidade e implementa-se todas as partes sensíveis ao tempo de execução em uma biblioteca principal C++. As ligações completas do Python para essa biblioteca principal são complementadas por funcionalidades escritas em Python puro, oferecendo, assim, eficiência e flexibilidade para o rápido desenvolvimento de aplicativos robustos de modelagem e inversão. O componente de modelagem oferece gerenciamento de malha, bem como solucionadores de elementos finitos e volumes finitos em 1D, 2D e 3D. O componente de inversão é baseado em um algoritmo determinístico de Gauss-Newton e funciona com qualquer operador direto físico fornecido. Várias rotinas de pós-processamento são fornecidas para visualizar os resultados em 2D usando Matplotlib (\citealp{Ruecker2017}) e em 3D usando o software ParaView (Ayachit, 2015) ou Mayavi (Ramachandran e Varoquaux, 2011). 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
