@@ -21,14 +21,16 @@
 \BOOKMARK [2][-]{subsection.2.8}{Regulariza\347\343o}{section.2}% 21
 \BOOKMARK [1][-]{section.3}{Materiais e M\351todos}{}% 22
 \BOOKMARK [2][-]{subsection.3.1}{\301rea de Estudo}{section.3}% 23
-\BOOKMARK [2][-]{subsection.3.2}{Frente te\363rica-computacional}{section.3}% 24
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Recursos computacionais}{subsection.3.2}% 25
-\BOOKMARK [3][-]{subsubsection.3.2.2}{pyGIMLi: Uma biblioteca de c\363digo aberto para modelagem e invers\343o em Geof\355sica}{subsection.3.2}% 26
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Estrutura do Software}{subsection.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.3}{Etapa experimental - Aquisi\347\343o em local com alvo conhecido}{section.3}% 28
-\BOOKMARK [1][-]{section.4}{Resultados e Discuss\343o}{}% 29
-\BOOKMARK [2][-]{subsection.4.1}{Dados sint\351ticos - Estudos de casos}{section.4}% 30
-\BOOKMARK [2][-]{subsection.4.2}{Dados de campo - Processamento e invers\343o dos dados s\355smicos}{section.4}% 31
-\BOOKMARK [1][-]{section.5}{Conclus\365es}{}% 32
-\BOOKMARK [1][-]{section*.15}{Refer\352ncias Bibliogr\341ficas}{}% 33
-\BOOKMARK [1][-]{appendix.A}{C\363digo do software}{}% 34
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Geologia}{subsection.3.1}% 24
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Pedologia}{subsection.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.2}{Frente te\363rica-computacional}{section.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Recursos computacionais}{subsection.3.2}% 27
+\BOOKMARK [3][-]{subsubsection.3.2.2}{pyGIMLi: Uma biblioteca de c\363digo aberto para modelagem e invers\343o em Geof\355sica}{subsection.3.2}% 28
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Estrutura do Software}{subsection.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.3}{Etapa experimental - Aquisi\347\343o em local com alvo conhecido}{section.3}% 30
+\BOOKMARK [1][-]{section.4}{Resultados e Discuss\343o}{}% 31
+\BOOKMARK [2][-]{subsection.4.1}{Dados sint\351ticos - Estudos de casos}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.2}{Dados de campo - Processamento e invers\343o dos dados s\355smicos}{section.4}% 33
+\BOOKMARK [1][-]{section.5}{Conclus\365es}{}% 34
+\BOOKMARK [1][-]{section*.19}{Refer\352ncias Bibliogr\341ficas}{}% 35
+\BOOKMARK [1][-]{appendix.A}{pyGIMLi: Biblioteca TravelTimeManager utilizada para o desenvolvimento do Software}{}% 36

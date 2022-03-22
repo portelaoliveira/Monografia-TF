@@ -8,51 +8,53 @@ I was expecting a `,' or a `}'---line 9 of file Referencias.bib
  :                                         url = {https://www.sbgf.org.br/revista/index.php/rbgf/article/view/1495}
 I'm skipping whatever remains of this entry
 Warning--empty journal in tempopercurso
+Warning--empty journal in menezes2010avaliaccao
+Warning--empty journal in neumann2012mapeamento
 Warning--empty chapter in rawlison
 Warning--empty publisher in rawlison
 You can't pop an empty literal stack for entry rawlison
 while executing---line 1586 of file seg.bst
 Warning--empty publisher in santamarina1998introduction
 Warning--empty journal in strang1980linear
-You've used 23 entries,
+You've used 47 entries,
             2639 wiz_defined-function locations,
-            837 strings with 9848 characters,
-and the built_in function-call counts, 8572 in all, are:
-= -- 921
-> -- 284
-< -- 20
-+ -- 94
-- -- 90
-* -- 699
-:= -- 1475
-add.period$ -- 23
-call.type$ -- 23
-change.case$ -- 159
-chr.to.int$ -- 23
-cite$ -- 28
-duplicate$ -- 336
-empty$ -- 649
-format.name$ -- 127
-if$ -- 1777
+            969 strings with 15158 characters,
+and the built_in function-call counts, 18524 in all, are:
+= -- 2013
+> -- 696
+< -- 35
++ -- 236
+- -- 228
+* -- 1584
+:= -- 3179
+add.period$ -- 47
+call.type$ -- 47
+change.case$ -- 347
+chr.to.int$ -- 47
+cite$ -- 54
+duplicate$ -- 674
+empty$ -- 1335
+format.name$ -- 303
+if$ -- 3807
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 73
-num.names$ -- 69
-pop$ -- 147
+missing$ -- 52
+newline$ -- 145
+num.names$ -- 141
+pop$ -- 289
 preamble$ -- 1
-purify$ -- 160
+purify$ -- 348
 quote$ -- 0
-skip$ -- 262
+skip$ -- 530
 stack$ -- 0
-substring$ -- 613
-swap$ -- 37
-text.length$ -- 3
+substring$ -- 1366
+swap$ -- 73
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 128
-warning$ -- 5
-while$ -- 73
+type$ -- 272
+warning$ -- 7
+while$ -- 162
 width$ -- 0
-write$ -- 244
+write$ -- 499
 (There were 2 error messages)

@@ -1,8 +1,25 @@
 \begin{thebibliography}{}
 \itemsep0pt
 
+\bibitem[Aldridge et~al., 1993]{aldridge1993two}
+Aldridge, D.~F., D.~W. Oldenburg, et~al.,  1993, Two-dimensional tomographic
+  inversion with finite-difference traveltimes: Journal of Seismic Exploration,
+  {\bf 2}, 257--274.
+
+\bibitem[Attwa et~al., 2014]{attwa2014structure}
+Attwa, M., I. Akca, A.~T. Basokur, e T. G{\"u}nther,  2014, Structure-based
+  geoelectrical models derived from genetic algorithms: a case study for
+  hydrogeological investigations along elbe river coastal area, germany:
+  Journal of Applied Geophysics, {\bf 103}, 57--70.
+
 \bibitem[Axelsson, 1994]{Axelsson}
 Axelsson, O.,  1994, Iterative solution methods.: Cambridge University Press.
+
+\bibitem[Ayachit et~al., 2015]{ayachit2015paraview}
+Ayachit, U., A. Bauer, B. Geveci, P. O'Leary, K. Moreland, N. Fabian, e J.
+  Mauldin,  2015, Paraview catalyst: Enabling in situ data analysis and
+  visualization: Proceedings of the First Workshop on In Situ Infrastructures
+  for Enabling Extreme-Scale Analysis and Visualization, 25--29.
 
 \bibitem[Bording et~al., 1987]{bording1987applications}
 Bording, R.~P., A. Gersztenkorn, L.~R. Lines, J.~A. Scales, e S. Treitel,
@@ -13,6 +30,11 @@ Bording, R.~P., A. Gersztenkorn, L.~R. Lines, J.~A. Scales, e S. Treitel,
 Branham, R.~L.,  1990, Introduction to overdetermined systems, {\it in}
   Scientific Data Analysis: Springer,  67--83.
 
+\bibitem[Campos, 2004]{campos2004hidrogeologia}
+Campos, J. E.~G.,  2004, Hidrogeologia do distrito federal: bases para a
+  gest{\~a}o dos recursos h{\'\i}dricos subterr{\^a}neos: Brazilian Journal of
+  Geology, {\bf 34}, 41--48.
+
 \bibitem[Cao e Greenhalgh, 1995]{cao1995relative}
 Cao, S., e S. Greenhalgh,  1995, Relative-error-based non-linear inversion:
   Application to seismic traveltime tomography: Geophysical Journal
@@ -21,17 +43,66 @@ Cao, S., e S. Greenhalgh,  1995, Relative-error-based non-linear inversion:
 \bibitem[Computations, 1989]{computations1989johns}
 Computations, M.,  1989, Johns hopkins univ: Press, Baltimore, MD.
 
+\bibitem[Costabel e G{\"u}nther, 2014]{costabel2014noninvasive}
+Costabel, S., e T. G{\"u}nther,  2014, Noninvasive estimation of water
+  retention parameters by observing the capillary fringe with magnetic
+  resonance sounding: Vadose Zone Journal, {\bf 13}.
+
+\bibitem[Costabel et~al., 2016]{costabel2016torus}
+Costabel, S., T. G{\"u}nther, R. Dlugosch, e M. M{\"u}ller-Petke,  2016,
+  Torus-nuclear magnetic resonance: Quasicontinuous airborne magnetic resonance
+  profiling by using a helium-filled balloon: Geophysics, {\bf 81},
+  WB119--WB129.
+
 \bibitem[Fernandez, 2000]{fernandez2000tomographic}
 Fernandez, A.~L.,  2000, Tomographic imaging the state of stress: Georgia
   Institute of Technology.
+
+\bibitem[FREITAS et~al., 1978]{freitas1978levantamento}
+FREITAS, F.~d., I. GOMES, R. FERREIRA, e L. ANTONELLO,  1978, Levantamento de
+  reconhecimento dos solos do distrito federal: Embrapa-Servi{\c{c}}o Nacional
+  de Levantamento e Classifica{\c{c}}{\~a}o de Solos, Rio de Janeiro.
 
 \bibitem[Gabriela Félix~Brião, 2005]{tempopercurso}
 Gabriela Félix~Brião, P. D. J. P.~Z.,  2005, Tomografia sísmica por tempo de
   percurso: Modelagem, métodos numéricos e implementação.
 
+\bibitem[G{\"u}nther, 2013]{gunther2013inversion}
+G{\"u}nther, T.,  2013, On inversion of frequency domain electromagnetic data
+  in salt water problems-sensitivity and resolution: Near Surface Geoscience
+  2013-19th EAGE European Meeting of Environmental and Engineering Geophysics,
+  European Association of Geoscientists \& Engineers, cp--354.
+
+\bibitem[G{\"u}nther e Martin, 2016]{gunther2016spectral}
+G{\"u}nther, T., e T. Martin,  2016, Spectral two-dimensional inversion of
+  frequency-domain induced polarization data from a mining slag heap: Journal
+  of Applied Geophysics, {\bf 135}, 436--448.
+
+\bibitem[G{\"u}nther e M{\"u}ller-Petke, 2012]{gunther2012hydraulic}
+G{\"u}nther, T., e M. M{\"u}ller-Petke,  2012, Hydraulic properties at the
+  north sea island of borkum derived from joint inversion of magnetic resonance
+  and electrical resistivity soundings: Hydrology and Earth System Sciences,
+  {\bf 16}, 3279--3291.
+
+\bibitem[G{\"u}nther et~al., 2006]{gunther2006three}
+G{\"u}nther, T., C. R{\"u}cker, e K. Spitzer,  2006, Three-dimensional
+  modelling and inversion of dc resistivity data incorporating topography—ii.
+  inversion: Geophysical Journal International, {\bf 166}, 506--517.
+
+\bibitem[H{\"u}bner et~al., 2015]{hubner2015monitoring}
+H{\"u}bner, R., K. Heller, T. G{\"u}nther, e A. Kleber,  2015, Monitoring
+  hillslope moisture dynamics with surface ert for enhancing spatial
+  significance of hydrometric point measurements: Hydrology and Earth System
+  Sciences, {\bf 19}, 225--240.
+
 \bibitem[Hunter, 2007]{matplotlib}
 Hunter, J.~D.,  2007, Matplotlib: A 2d graphics environment: Computing in
   Science Engineering, {\bf 9}, 90--95.
+
+\bibitem[Igel et~al., 2016]{igel2016high}
+Igel, J., S. Stadler, e T. Guenther,  2016, High-resolution investigation of
+  the capillary transition zone and its influence on gpr signatures: 2016 16th
+  International Conference on Ground Penetrating Radar (GPR), IEEE, 1--5.
 
 \bibitem[Imhof, 2007]{imhof2007caracterizacion}
 Imhof, A.,  2007, Caracterizaci{\'o}n de arenas y gravas con ondas
@@ -44,6 +115,28 @@ Imhof, A.~L., e C.~A. Calvo,  2018, A variational formulation to image
   inclusions in 2d travel time cross hole tomography: Brazilian Journal of
   Geophysics, {\bf 21}, 269--274.
 
+\bibitem[Kim e Kim, 2011]{kim2011unified}
+Kim, H.~J., e Y. Kim,  2011, A unified transformation function for lower and
+  upper bounding constraints on model parameters in electrical and
+  electromagnetic inversion: Journal of Geophysics and Engineering, {\bf 8},
+  21--26.
+
+\bibitem[Loewer et~al., 2015]{loewer2015spectral}
+Loewer, M., J. Igel, e N. Wagner,  2015, Spectral decomposition of soil
+  electrical and dielectric losses and prediction of in situ gpr performance:
+  IEEE Journal of Selected Topics in Applied Earth Observations and Remote
+  Sensing, {\bf 9}, 212--220.
+
+\bibitem[Martins, 2000]{martins2000petrografia}
+Martins, E.,  2000, Petrografia, mineralogia e geomorfologia de reg{\'o}litos
+  later{\'\i}ticos no distrito federal: Universidade de Bras{\'\i}lia--UnB,
+  Bras{\'\i}lia.
+
+\bibitem[Menezes, 2010]{menezes2010avaliaccao}
+Menezes, P. H. B.~J.,  2010, Avalia{\c{c}}{\~a}o do efeito das a{\c{c}}{\~o}es
+  antr{\'o}picas no processo de escoamento superficial e assoreamento na bacia
+  do lago parano{\'a}.
+
 \bibitem[Menke, 1984]{menke1984geophysical}
 Menke, W.,  1984, Geophysical data analysis: Discrete inverse theory: Academic
   press.
@@ -51,6 +144,30 @@ Menke, W.,  1984, Geophysical data analysis: Discrete inverse theory: Academic
 \bibitem[Natterer e W{\"u}bbeling, 2001]{natterer2001mathematical}
 Natterer, F., e F. W{\"u}bbeling,  2001, Mathematical methods in image
   reconstruction: SIAM.
+
+\bibitem[Neumann, 2012]{neumann2012mapeamento}
+Neumann, M. R.~B.,  2012, Mapeamento digital de solos, no distrito federal.
+
+\bibitem[Park e Van, 1991]{park1991inversion}
+Park, S.~K., e G.~P. Van,  1991, Inversion of pole-pole data for 3-d
+  resistivity structure beneath arrays of electrodes: Geophysics, {\bf 56},
+  951--960.
+
+\bibitem[Pimentel et~al., 2011]{pimentel2011tectonic}
+Pimentel, M.~M., J.~B. Rodrigues, M.~E.~S. DellaGiustina, S. Junges, M.
+  Matteini, e R. Armstrong,  2011, The tectonic evolution of the neoproterozoic
+  bras{\'\i}lia belt, central brazil, based on shrimp and la-icpms u--pb
+  sedimentary provenance data: a review: Journal of South American Earth
+  Sciences, {\bf 31}, 345--357.
+
+\bibitem[Podvin e Lecomte, 1991]{podvin1991finite}
+Podvin, P., e I. Lecomte,  1991, Finite difference computation of traveltimes
+  in very contrasted velocity models: a massively parallel approach and its
+  associated tools: Geophysical Journal International, {\bf 105}, 271--284.
+
+\bibitem[Ramachandran e Varoquaux, 2011]{ramachandran2011mayavi}
+Ramachandran, P., e G. Varoquaux,  2011, Mayavi: 3d visualization of scientific
+  data: Computing in Science \& Engineering, {\bf 13}, 40--51.
 
 \bibitem[Rawlinson et~al., 2010]{rawlinson2010seismic}
 Rawlinson, N., S. Pozgay, e S. Fishwick,  2010, Seismic tomography: a window
@@ -73,6 +190,12 @@ R{\"o}hm, A.~H., H. Bijwaard, W. Spakman, e J. Trampert,  2000, Effects of
   arrival time errors on traveltime tomography: Geophysical Journal
   International, {\bf 142}, 270--276.
 
+\bibitem[Ronczka et~al., 2017]{ronczka2017electric}
+Ronczka, M., K. Hellman, T. G{\"u}nther, R. Wis{\'e}n, e T. Dahlin,  2017,
+  Electric resistivity and seismic refraction tomography: a challenging joint
+  underwater survey at {\"a}sp{\"o} hard rock laboratory: Solid Earth, {\bf 8},
+  671--682.
+
 \bibitem[R\"ucker et~al., 2017]{Ruecker2017}
 R\"ucker, C., T. G\"unther, e F.~M. Wagner,  2017, {pyGIMLi}: An open-source
   library for modelling and inversion in ,→ geophysics: Computers and
@@ -89,6 +212,11 @@ Scales, J.~A., A. Gersztenkorn, e S. Treitel,  1988, Fast ip solution of large,
 
 \bibitem[Strang, 1980]{strang1980linear}
 Strang, G.,  1980, Linear algebra and its applications.
+
+\bibitem[Wagner et~al., 2015]{wagner2015constructive}
+Wagner, F.~M., T. G{\"u}nther, C. Schmidt-Hattenberger, e H. Maurer,  2015,
+  Constructive optimization of electrode locations for target-focused
+  resistivity monitoring: Geophysics, {\bf 80}, E29--E40.
 
 \bibitem[Wang et~al., 2000]{wang2000seismic}
 Wang, Y., R.~E. White, e R.~G. Pratt,  2000, Seismic amplitude inversion for
