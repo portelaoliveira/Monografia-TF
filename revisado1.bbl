@@ -67,6 +67,11 @@ FREITAS, F.~d., I. GOMES, R. FERREIRA, e L. ANTONELLO,  1978, Levantamento de
 Gabriela Félix~Brião, P. D. J. P.~Z.,  2005, Tomografia sísmica por tempo de
   percurso: Modelagem, métodos numéricos e implementação.
 
+\bibitem[Giroux e Larouche, 2013]{giroux2013task}
+Giroux, B., e B. Larouche,  2013, Task-parallel implementation of 3d shortest
+  path raytracing for geophysical applications: Computers \& geosciences, {\bf
+  54}, 130--141.
+
 \bibitem[G{\"u}nther, 2013]{gunther2013inversion}
 G{\"u}nther, T.,  2013, On inversion of frequency domain electromagnetic data
   in salt water problems-sensitivity and resolution: Near Surface Geoscience
@@ -141,6 +146,10 @@ Menezes, P. H. B.~J.,  2010, Avalia{\c{c}}{\~a}o do efeito das a{\c{c}}{\~o}es
 Menke, W.,  1984, Geophysical data analysis: Discrete inverse theory: Academic
   press.
 
+\bibitem[Moser, 1991]{moser1991shortest}
+Moser, T.,  1991, Shortest path calculation of seismic rays: Geophysics, {\bf
+  56}, 59--67.
+
 \bibitem[Natterer e W{\"u}bbeling, 2001]{natterer2001mathematical}
 Natterer, F., e F. W{\"u}bbeling,  2001, Mathematical methods in image
   reconstruction: SIAM.
@@ -159,6 +168,10 @@ Pimentel, M.~M., J.~B. Rodrigues, M.~E.~S. DellaGiustina, S. Junges, M.
   bras{\'\i}lia belt, central brazil, based on shrimp and la-icpms u--pb
   sedimentary provenance data: a review: Journal of South American Earth
   Sciences, {\bf 31}, 345--357.
+
+\bibitem[Pirzadeh, 1993]{pirzadeh1993structured}
+Pirzadeh, S.,  1993, Structured background grids for generation of unstructured
+  grids by advancing-front method: AIAA journal, {\bf 31}, 257--265.
 
 \bibitem[Podvin e Lecomte, 1991]{podvin1991finite}
 Podvin, P., e I. Lecomte,  1991, Finite difference computation of traveltimes
@@ -212,6 +225,11 @@ Scales, J.~A., A. Gersztenkorn, e S. Treitel,  1988, Fast ip solution of large,
 
 \bibitem[Strang, 1980]{strang1980linear}
 Strang, G.,  1980, Linear algebra and its applications.
+
+\bibitem[Teng e Wong, 2000]{teng2000unstructured}
+Teng, S.-H., e C.~W. Wong,  2000, Unstructured mesh generation: Theory,
+  practice, and perspectives: International Journal of Computational Geometry
+  \& Applications, {\bf 10}, 227--266.
 
 \bibitem[Wagner et~al., 2015]{wagner2015constructive}
 Wagner, F.~M., T. G{\"u}nther, C. Schmidt-Hattenberger, e H. Maurer,  2015,

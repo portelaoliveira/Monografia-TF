@@ -8,7 +8,7 @@
 
 \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry} % Margens da Página
 \usepackage[utf8]{inputenc} % Codificação do Texto
-\usepackage{amsmath, mathrsfs, amsfonts, amssymb} % Pacotes de Matemática
+\usepackage{amsmath, mathrsfs, amsfonts, amssymb, esvect} % Pacotes de Matemática
 \usepackage{graphicx} % Inserir Figuras, gráficos
 \usepackage{float} % Inserir figuras: posicionamento
 \usepackage[T1]{fontenc}
@@ -445,7 +445,7 @@ b \\
 
 Suponha que uma parede seja montada a partir de um arranjo retangular de tijolos~(Figura \ref{tomografia}, página~\pageref{tomografia}) e que cada tijolo seja composto de um tipo diferente de argila \citep{menke1984geophysical}. Se as velocidades acústicas das diferentes argilas diferem, pode-se tentar distinguir os diferentes tipos de tijolos medindo o tempo de viagem do som através das várias fileiras e colunas de tijolos na parede. Os dados deste problema são $N = 8$ medições de tempo de percurso, $\textbf{d} = [T_{1}, T_{2}, T_{3}, \cdots, T_{8}]^T$. 
 
-O modelo assume que cada tijolo é composto de um material uniforme e que o tempo de percurso do som através de cada tijolo é proporcional à largura e altura do tijolo. O fator de proporcionalidade é a lentidão (\textit{slowness}) do tijolo $s_{i}$, dando assim $M = 16$ parâmetros do modelo $\textbf{m} = [s_{1}, s_{2}, s_{3}, \cdots, s_{16}]^T$, onde a ordenação está de acordo com o esquema de numeração da figura como \\
+O modelo assume que cada tijolo é composto de um material uniforme e que o tempo de percurso do som através de cada tijolo é proporcional à largura e altura do tijolo. O fator de proporcionalidade é a vagarosidade (\textit{slowness}) do tijolo $s_{i}$, dando assim $M = 16$ parâmetros do modelo $\textbf{m} = [s_{1}, s_{2}, s_{3}, \cdots, s_{16}]^T$, onde a ordenação está de acordo com o esquema de numeração da figura como \\
 
 
 \begin{equation}\label{eq:formulation_tomografia}
@@ -683,7 +683,7 @@ $M$ terá como suas componentes os dados do comprimento das trajetórias.
 
 As entradas em $\textbf{S}$ (Figura~\ref{matriz_convergencia}, página~\pageref{matriz_convergencia}) são calculadas identificando a interseção de forma individual do raio \textit{`m'} com os limites do pixel \textit{`n'} e computando o comprimento (relação de Pitágoras) \textit{`d'} dentro do elemento \citep{RBGf1495}. Portanto, o tamanho de $\textbf{S}$ crescerá com o incremento das medidas e/ou densidade de discretização.
 
-Considerando a Figura~\ref{raios} (página~\pageref{raios}) e tendo ainda em mente a Figura~\ref{matriz_convergencia} (página~\pageref{matriz_convergencia}); o número de fontes e receptores é $7$ e então o número total de raios é $49$ (constante para esta matriz). Se o meio for dividido em $7 \times 7 = 49$ pixels, $\textbf{S}$ será de 49 linhas ($M$, número de raios) por 49 colunas ($N$ , número de pixels, cujas lentidão (\textit{slowness}) são desconhecidas). É relevante notar que o incremento da densidade de pixels $(N)$, levará a considerar mais pixels no cálculo dos caminhos de viagem para cada receptor.
+Considerando a Figura~\ref{raios} (página~\pageref{raios}) e tendo ainda em mente a Figura~\ref{matriz_convergencia} (página~\pageref{matriz_convergencia}); o número de fontes e receptores é $7$ e então o número total de raios é $49$ (constante para esta matriz). Se o meio for dividido em $7 \times 7 = 49$ pixels, $\textbf{S}$ será de 49 linhas ($M$, número de raios) por 49 colunas ($N$ , número de pixels, cujas vagarosidades (\textit{slowness}) são desconhecidas). É relevante notar que o incremento da densidade de pixels $(N)$, levará a considerar mais pixels no cálculo dos caminhos de viagem para cada receptor.
 
 Este sistema de equações é \textit{aparentemente} determinado (número de equações igual ao número de incógnitas). A palavra \textit{aparentemente} significa que em alguns casos (especialmente em \textit{cross-hole}, (ver \citealp{imhof2007caracterizacion}) o sistema está mal condicionado e a classificação de $\textbf{S} < N , M$. Isso dará um sistema subdeterminado levando a infinitas soluções. O mesmo ocorrerá, por exemplo, dividindo o meio em mais pixels para melhorar a resolução das imagens. (a limitação de dividir o meio com $N = M$ é que a resolução é grosseira, pois o tamanho dos pixels é grande).
 
@@ -693,9 +693,9 @@ Incrementar o número de transdutores para melhorar a resolução não é práti
 
 \subsection{Matriz de cobertura espacial}
 
-O tamanho de $\textbf{S}$ (matriz de transformação) é $M$ linhas (número de medições) por $N$ colunas (número de lentidão - \textit{slowness} - de pixel desconhecido). A soma de cada coluna individual de $\textbf{S}$ traz o comprimento total percorrido pelos raios em um pixel (Figura~\ref{matriz_convergencia}, página~\pageref{matriz_convergencia}). Aplicando esta soma em todas as colunas de $\textbf{S}$, obtém-se um vetor linha $1 \times N$ que rearranjado seguindo o padrão geométrico, traz a matriz de cobertura espacial de $``s"$ pixels verticais por $``t"$ horizontais onde $N = s + t$. Considerou-se aqui $s = t$ \citep{RBGf1495}.
+O tamanho de $\textbf{S}$ (matriz de transformação) é $M$ linhas (número de medições) por $N$ colunas (número de vagarosidade - \textit{slowness} - de pixel desconhecido). A soma de cada coluna individual de $\textbf{S}$ traz o comprimento total percorrido pelos raios em um pixel (Figura~\ref{matriz_convergencia}, página~\pageref{matriz_convergencia}). Aplicando esta soma em todas as colunas de $\textbf{S}$, obtém-se um vetor linha $1 \times N$ que rearranjado seguindo o padrão geométrico, traz a matriz de cobertura espacial de $``s"$ pixels verticais por $``t"$ horizontais onde $N = s + t$. Considerou-se aqui $s = t$ \citep{RBGf1495}.
 
-Dois exemplos de matrizes de cobertura espacial de \textit{cross-hole} são representados na Figura~\ref{raios_convergencia} (página~\pageref{raios_convergencia}) para 10 pares de fonte-receptor; \textbf{(a)} para 100 elementos e \textbf{(b)} 400 unidades. As zonas escuras indicam valores mais baixos de cobertura espacial. Isso significa que as informações coletadas para resolver a velocidade ou lentidão (\textit{slowness}) do mesmo são menores do que em outras zonas mais claras. Em outras palavras, a precisão para a avaliação dos valores dos pixels não será uniforme. Em virtude de haver mais raios que atravessam um pixel, há mais informações nele (semelhante ao conceito CDP - \textit{Common Depth Point} - em sísmica de reflexão), o setor mais claro no centro da matriz de cobertura espacial representa a resolução e precisão máximas para o pixel/s ali situado. Mas o que acontece quando uma inclusão que está sendo buscada está longe dessa posição? A resolução para localizá-lo será mais pobre \citep{santamarina1998introduction}.
+Dois exemplos de matrizes de cobertura espacial de \textit{cross-hole} são representados na Figura~\ref{raios_convergencia} (página~\pageref{raios_convergencia}) para 10 pares de fonte-receptor; \textbf{(a)} para 100 elementos e \textbf{(b)} 400 unidades. As zonas escuras indicam valores mais baixos de cobertura espacial. Isso significa que as informações coletadas para resolver a velocidade ou vagarosidade (\textit{slowness}) do mesmo são menores do que em outras zonas mais claras. Em outras palavras, a precisão para a avaliação dos valores dos pixels não será uniforme. Em virtude de haver mais raios que atravessam um pixel, há mais informações nele (semelhante ao conceito CDP - \textit{Common Depth Point} - em sísmica de reflexão), o setor mais claro no centro da matriz de cobertura espacial representa a resolução e precisão máximas para o pixel/s ali situado. Mas o que acontece quando uma inclusão que está sendo buscada está longe dessa posição? A resolução para localizá-lo será mais pobre \citep{santamarina1998introduction}.
 
 Uma forma alternativa de dividir o meio para melhorar a resolução nas zonas escuras é proposta: ao invés de separá-lo em pixels de mesmo tamanho e cobertura espacial diferente em cada um; ele será dividido em elementos de igual cobertura espacial e tamanhos individuais distintos e nomeados como ipixels. Devido a este fato, os elementos de $\textbf{S}$ serão diferentes. A Figura~\ref{ipixel} (página~\pageref{ipixel}) mostra o domínio dividido em duas densidades de ipixels. Os mesmos tons de cor representam a mesma informação em cada elemento.
 
@@ -1003,6 +1003,88 @@ Para tomografia sísmica, os tempos de primeira chegada são calculados por um \
 	\item[pyGIMLi] |\textit{Meshing} 
 \end{description}
 
+\begin{itemize}
+	\item \textit{Unstructured Meshes}
+	
+	\hspace{0.5cm} Um passo essencial na simulação numérica é encontrar uma discretização adequada de um domínio contínuo. Este é o problema da geração de malha. A geração de malhas é um componente chave para a simulação computacional de problemas físicos e de engenharia onde são usados métodos numéricos como os métodos dos elementos finitos, das diferenças finitas e dos volumes finitos (\citealp{teng2000unstructured}). Um método de simulação numérica normalmente aplica as seis etapas básicas a seguir.
+	
+	\begin{enumerate}
+		\item \textbf{Modelagem matemática:} definir o domínio contínuo \textbf{$\Omega$} e as equações diferenciais parciais (EDP) sobre o domínio que modelam com precisão o problema físico e de engenharia;
+		
+		\item \textbf{Modelagem geométrica:} aproximar o domínio contínuo \textbf{$\Omega$} com uma descrição discreta;
+		
+		\item \textbf{Geração de malha:} decompor o interior do domínio em uma malha $\textbf{M}$ de elementos simples e "bem modelados", como caixas ou \textit{simplices} com uma proporção limitada;
+		
+		\item \textbf{Aproximação numérica:} construir um sistema de equações lineares ou não lineares sobre $\textbf{M}$ para as EDPs governantes;
+		
+		\item \textbf{Solução numérica:} resolver o sistema de equações e estimar o erro da solução;
+		
+		\item \textbf{Refinamento adaptativo:} se necessário, refine a malha e repita os passos 5 e 6 sobre as malhas refinadas.
+	\end{enumerate}
+	
+	\hspace{0.5cm} Uma vez que tenhamos gerado uma malha, as equações diferenciais para fluxo, ondas e distribuição de calor são então aproximadas pelas formulações de diferença finita, elemento ou volume. No entanto, nem todas as malhas são igualmente boas numericamente. Os erros de discretização dependem da forma geométrica e do tamanho dos elementos, enquanto a complexidade computacional para encontrar a solução numérica depende do número de elementos na malha e também da qualidade geométrica geral da malha; o objetivo é gerar malhas pequenas e numericamente sólidas.
+	
+	\hspace{0.5cm} A forma mais simples de uma malha é uma malha estruturada. Existem dois tipos de malhas estruturadas: malhas \textit{geometricamente estruturadas} e \textit{topologicamente estruturadas}. Exemplos de malhas geometricamente estruturadas são grades cartesianas regulares e grades hexagonais uniformes. Nessas malhas, todos os elementos são geometricamente iguais. Uma malha é estruturada topologicamente se sua estrutura topológica for isomórfica à de uma malha estruturada geometricamente. Por exemplo, podemos aplicar uma transformação conforme a uma grade estruturada para gerar uma malha estruturada topologicamente. As grades estruturadas são fáceis de gerar e manipular, o que facilita o uso de estruturas de dados simples para reduzir a complexidade da programação. Além disso, a teoria numérica sobre esses tipos de discretização é bem compreendida. No entanto, o uso de malhas regulares estruturadas limita a aplicabilidade dos métodos numéricos a problemas cujos domínios são simples e cujas funções de solução são suaves.
+	
+	\hspace{0.5cm} Para problemas com limites geométricos complexos e com soluções que mudam rapidamente, precisamos usar uma malha não estruturada que tenha topologia e espaçamento local variáveis para reduzir o tamanho do problema. Para o exemplo de modelagem de terremotos, precisamos de uma discretização muito mais densa e mais fina perto do centro do terremoto, embora seja desejável não desperdiçar pontos de malha em regiões com baixa atividade. A adaptabilidade de malhas não estruturadas traz novos desafios, especialmente para problemas 3D; a teoria numérica torna-se mais difícil e o projeto algorítmico torna-se mais difícil.
+\end{itemize}
+
+\begin{itemize}
+	\item \textit{Unstructured Triangular Meshes}
+	
+	\hspace{0.5cm} A malha mais geral e versátil é uma malha triangular não estruturada na qual cada elemento é um simplex, ou seja, um triângulo em 2D ou um tetraedro em 3D. Em geral, um \textit{k-simplex} é um politopo convexo de $k + 1$ pontos de dimensão $k$. Uma malha triangular é uma triangulação do domínio de entrada (por exemplo, um polígono), juntamente com alguns pontos extras, chamados de \textit{Steiner points}. Uma \textit{triangulação} ou um \textit{complexo simplicial} é uma decomposição de um domínio em uma coleção de \textit{interior disjointed simplices}, de modo que dois \textit{simplices} só podem se cruzar em um simplex de dimensão inferior, ou seja, elementos vizinhos são conformes em seus limites.
+	Combinatoriamente, uma triangulação $T$ pode ser expressa como um \textit{Piecewise Linear System} (PLS) de um conjunto $S_{T}$ de \textit{simplices}: se $s$ é um simplex em $S_{T}$ então todas as suas faces de menor dimensão, que também são \textit{simplices}, também pertencem a $S_{T}$ (ver mais em \citealp{teng2000unstructured}).
+	
+	\hspace{0.5cm} Para aproximar adequadamente uma função contínua, além da condição de que uma malha deve estar de acordo com os limites do domínio e ser suficientemente fina, cada elemento individual da malha deve ser bem modelado. Um critério de forma comum para elementos é a condição de que os ângulos de cada elemento não sejam nem muito pequenos nem muito grandes, ou que a proporção de cada elemento seja limitada.
+	
+	\hspace{0.5cm} Diversas definições de razão de aspecto têm sido utilizadas na literatura, e se uma delas é limitada por uma constante, todas também são. Por exemplo, em 2D, pode-se usar o menor ângulo de um triângulo para medir sua condição de forma. Em 3D, pode-se usar o menor ângulo diedro de um tetraedro. A seguinte definição de razão de aspecto, popularizada por Mitchell e Vavasis, é definida uniformemente para qualquer dimensão.
+\end{itemize}
+
+ \begin{itemize}
+	\item \textit{Structured grids}
+	
+	\hspace{0.5cm} Uma malha cartesiana é facilmente gerada com algumas linhas simples de codificação de computador, em oposição à construção manual demorada de malhas não estruturadas triangulares/tetraédricas.
+	Associado a uma grade de fundo cartesiana está um número arbitrário de elementos de origem prescritos pelo usuário nos quais os parâmetros da grade são definidos. Os elementos de origem propagam os parâmetros de espaçamento no campo de forma automática e sistemática.
+	Existem dois tipos de elementos: elementos nodais e lineares. As fontes podem ser posicionadas em qualquer lugar no campo, preferencialmente perto das superfícies da geometria e nos limites externos. De um modo geral, a localização de um elemento fonte é escolhida onde uma distribuição bem controlada de pontos de grade é desejada em uma grade de baixa qualidade e em alguns casos afeta severamente o processo de \textit{front advancement} (ver mais em \citealp{pirzadeh1993structured}).
+	
+\end{itemize}
+
+\begin{itemize}
+	\item \textit{Métodos Refinement}
+	
+	\hspace{0.5cm} A técnica mais popular para geração de conjuntos de pontos e elementos é o Refinamento Iterativo e Adaptativo: Primeiro, uma triangulação inicial é construída. \textit{Steiner points} adicionais são então inseridos no domínio e uma triangulação melhorada é gerada. Mais \textit{Steiner points} são então adicionados para uma melhor triangulação, e assim por diante até que uma malha de qualidade seja obtida (ver mais em \citealp{teng2000unstructured}).
+\end{itemize}
+
+\begin{itemize}
+	\item \textit{Tomografia de tempos de percurso (Traveltimes tomography)}
+	
+	\hspace{0.5cm} Esquemas de tomografia baseados em raios usam a aproximação de raios para descrever a propagação da onda através da região de estudo, geralmente chamada de \textit{raytracing}. Vários métodos foram desenvolvidos para realizar o \textit{raytracing}, seguindo diferentes abordagens teóricas. Para tomografia de tempo de percurso, o problema inverso é resolvido por tempos de percurso e caminhos de raios, e o traçado de raios deve ser realizado várias vezes de forma iterativa (\citealp{giroux2013task}).
+	
+	\hspace{0.5cm} O método \textit{Shortest Path} (\citealp{moser1991shortest}) com nós secundários (\citealp{giroux2013task}) é o algoritmo subjacente implementado no pyGIMLi. Essa abordagem procura o caminho mais rápido através de uma determinada malha da fonte ao receptor. O problema discretizado é um sistema linear de equações que os métodos numéricos podem resolver.
+	
+	\hspace{0.5cm} De acordo com \cite{ronczka2017electric}, o problema linearizado é dado por $\vv {\Delta d} = G \vv {\Delta m}$, onde a matriz Jacobiana $G$ contém as derivadas parciais ${\partial ti}/{\partial mj}$ e os tempos de deslocamento observados são mantidos em $\vv{d}$. A tomografia de refração sísmica é um problema inverso que pode ser resolvido por uma minimização restrita de suavidade da função de custo dada por
+	
+	\begin{equation}\label{eq:traveltimes}
+	\Phi = \Phi_{d} + \lambda \Phi_{m} = \sum\limits_{i=1}^{N} \left(\frac{d_{i} - f_{i}(m)}{\in _{i}}\right)^{2} + \lambda ||Cm||_{2}^{2}
+	\end{equation}
+	
+	Onde $\Phi_{d} $ é o desajuste dos dados ponderados pelo erro, $\Phi_{m}$ é a rugosidade do modelo e $\lambda$ é o parâmetro de regularização. O tempo de percurso $t$ entre a fonte e o receptor ao longo de um caminho de raio é calculado por
+	
+	\begin{equation}\label{eq:raio}
+	t = \sum\limits_{i=1}^{n} \frac{r_{i}}{v_{i}}
+	\end{equation}
+	
+	Onde $r_{i}$ e ${1}/{v_{i}}$ são o comprimento do caminho (percurso) e a vagarosidade para um segmento $i$, respectivamente. A diferença entre os pontos de dados individuais $d_{i} $ e os correspondentes tempos de percurso teóricos $f_{i}(m)$ é ponderada pelos seus erros individuais $\in _{i}$.
+	
+	\hspace{0.5cm} Um modelo ponderado funcional $W_{c}$ pode ser usado para incorporar restrições de modelo adicionais na função objeto estendendo a rugosidade $\Phi_{m}$, resultando em
+	
+	\begin{equation}\label{eq:modelo_ponderado}
+	\Phi_{m} = ||W_{c}Cm||_{2}^{2}
+	\end{equation}
+	
+	\hspace{0.5cm} A rugosidade consiste na matriz derivada $C$ aplicada ao modelo $m$. Cada linha em $C$ está associada a um limite, onde a matriz de ponderação $W_{c}$ é uma matriz diagonal onde cada $w_{i}$ representa fatores de penalidade para os diferentes limites das células do modelo.
+	
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

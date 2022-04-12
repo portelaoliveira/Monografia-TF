@@ -27,11 +27,11 @@
 \contentsline {subsection}{\numberline {3.2}Frente teórica-computacional}{33}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Recursos computacionais}{33}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}pyGIMLi: Uma biblioteca de código aberto para modelagem e inversão em Geofísica}{34}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Estrutura do \emph {Software}}{37}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Etapa experimental - Aquisição em local com alvo conhecido}{38}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Resultados e Discussão}{39}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Dados sintéticos - Estudos de casos}{39}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Dados de campo - Processamento e inversão dos dados sísmicos}{40}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Conclusões}{41}{section.5}%
-\contentsline {section}{Refer\^encias Bibliogr\'aficas}{42}{section*.19}%
-\contentsline {section}{\numberline {A}pyGIMLi: Biblioteca \textit {TravelTimeManager} utilizada para o desenvolvimento do \emph {Software}}{45}{appendix.A}%
+\contentsline {subsubsection}{\numberline {3.2.3}Estrutura do \emph {Software}}{40}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Etapa experimental - Aquisição em local com alvo conhecido}{41}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Resultados e Discussão}{42}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Dados sintéticos - Estudos de casos}{42}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Dados de campo - Processamento e inversão dos dados sísmicos}{43}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusões}{44}{section.5}%
+\contentsline {section}{Refer\^encias Bibliogr\'aficas}{45}{section*.19}%
+\contentsline {section}{\numberline {A}pyGIMLi: Biblioteca \textit {TravelTimeManager} utilizada para o desenvolvimento do \emph {Software}}{48}{appendix.A}%

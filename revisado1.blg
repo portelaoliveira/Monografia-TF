@@ -7,6 +7,10 @@ I was expecting a `,' or a `}'---line 9 of file Referencias.bib
  :  issn = {1809-4511}, pages = {269--274} 
  :                                         url = {https://www.sbgf.org.br/revista/index.php/rbgf/article/view/1495}
 I'm skipping whatever remains of this entry
+Repeated entry---line 110 of file Referencias.bib
+ : @article{ronczka2017electric
+ :                             ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in tempopercurso
 Warning--empty journal in menezes2010avaliaccao
 Warning--empty journal in neumann2012mapeamento
@@ -16,45 +20,45 @@ You can't pop an empty literal stack for entry rawlison
 while executing---line 1586 of file seg.bst
 Warning--empty publisher in santamarina1998introduction
 Warning--empty journal in strang1980linear
-You've used 47 entries,
+You've used 51 entries,
             2639 wiz_defined-function locations,
-            969 strings with 15158 characters,
-and the built_in function-call counts, 18524 in all, are:
-= -- 2013
-> -- 696
-< -- 35
-+ -- 236
-- -- 228
-* -- 1584
-:= -- 3179
-add.period$ -- 47
-call.type$ -- 47
-change.case$ -- 347
-chr.to.int$ -- 47
-cite$ -- 54
-duplicate$ -- 674
-empty$ -- 1335
-format.name$ -- 303
-if$ -- 3807
+            992 strings with 15765 characters,
+and the built_in function-call counts, 20040 in all, are:
+= -- 2185
+> -- 736
+< -- 39
++ -- 248
+- -- 240
+* -- 1716
+:= -- 3437
+add.period$ -- 51
+call.type$ -- 51
+change.case$ -- 373
+chr.to.int$ -- 51
+cite$ -- 58
+duplicate$ -- 730
+empty$ -- 1453
+format.name$ -- 323
+if$ -- 4117
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 52
-newline$ -- 145
-num.names$ -- 141
-pop$ -- 289
+missing$ -- 56
+newline$ -- 157
+num.names$ -- 153
+pop$ -- 303
 preamble$ -- 1
-purify$ -- 348
+purify$ -- 374
 quote$ -- 0
-skip$ -- 530
+skip$ -- 572
 stack$ -- 0
-substring$ -- 1366
-swap$ -- 73
+substring$ -- 1508
+swap$ -- 77
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 272
+type$ -- 296
 warning$ -- 7
-while$ -- 162
+while$ -- 178
 width$ -- 0
-write$ -- 499
-(There were 2 error messages)
+write$ -- 543
+(There were 3 error messages)

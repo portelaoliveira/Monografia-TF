@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.20)  22 MAR 2022 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.20)  11 APR 2022 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -126,6 +126,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/esvect/esvect.sty
+Package: esvect 
+\symesvector=\mathgroup7
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -969,6 +973,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 
+2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
+File: uesvect.fd 
+)
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 5.
 
@@ -1179,48 +1189,21 @@ File: Figuras/inversao.png Graphic file (type png)
 <use Figuras/inversao.png>
 Package pdftex.def Info: Figuras/inversao.png  used on input line 965.
 (pdftex.def)             Requested size: 387.24974pt x 364.36406pt.
- [36 <./Figuras/inversao.png>]
+ [36 <./Figuras/inversao.png>] [37]
+[38] [39]
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1013.
-
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1015.
+(blindtext)                 on input line 1095.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1016.
-
-[37]
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1023.
+(blindtext)                 on input line 1097.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1025.
+(blindtext)                 on input line 1098.
 
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1026.
-
-Excluding 'comment' comment. Excluding 'comment' comment. [38]
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1071.
-
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1073.
-
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1074.
-
-Excluding 'comment' comment. [39
-
-]
+[40]
 
 Package blindtext Warning: brazil not defined, using English instead.
 (blindtext)                 on input line 1105.
@@ -1233,27 +1216,55 @@ Package blindtext Warning: brazil not defined, using English instead.
 Package blindtext Warning: brazil not defined, using English instead.
 (blindtext)                 on input line 1108.
 
-[40
+Excluding 'comment' comment. Excluding 'comment' comment. [41]
+
+Package blindtext Warning: brazil not defined, using English instead.
+(blindtext)                 on input line 1153.
+
+
+Package blindtext Warning: brazil not defined, using English instead.
+(blindtext)                 on input line 1155.
+
+
+Package blindtext Warning: brazil not defined, using English instead.
+(blindtext)                 on input line 1156.
+
+Excluding 'comment' comment. [42
 
 ]
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1117.
+(blindtext)                 on input line 1187.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1119.
+(blindtext)                 on input line 1189.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1120.
+(blindtext)                 on input line 1190.
 
-[41
+[43
 
-] (./revisado1.bbl [42
+]
 
-] [43]) [44]
-Overfull \hbox (8.81082pt too wide) in paragraph at lines 1135--1135
+Package blindtext Warning: brazil not defined, using English instead.
+(blindtext)                 on input line 1199.
+
+
+Package blindtext Warning: brazil not defined, using English instead.
+(blindtext)                 on input line 1201.
+
+
+Package blindtext Warning: brazil not defined, using English instead.
+(blindtext)                 on input line 1202.
+
+[44
+
+] (./revisado1.bbl [45
+
+] [46]) [47]
+Overfull \hbox (8.81082pt too wide) in paragraph at lines 1217--1217
 []\T1/cmr/bx/n/17.28 pyGIMLi: Bi-bli-o-teca \T1/cmr/bx/it/17.28 Tra-vel-Ti-me-M
 a-na-ger \T1/cmr/bx/n/17.28 uti-li-zada
  []
@@ -1262,17 +1273,17 @@ a-na-ger \T1/cmr/bx/n/17.28 uti-li-zada
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 1138.
- [45
+nput line 1220.
+ [48
 
-] [46]
-[47] [48] [49] [50] [51] [52] [53] [54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1562.
- [55]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1562.
+] [49]
+[50] [51] [52] [53] [54] [55] [56] [57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1644.
+ [58]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1644.
  (./revisado1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1562.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1562.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1644.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1644.
 
 Package rerunfilecheck Info: File `revisado1.out' has not changed.
 (rerunfilecheck)             Checksum: 224FFC2EBC2A118E89901AE1E72D5C89;2882.
@@ -1281,14 +1292,14 @@ Package rerunfilecheck Info: File `revisado1.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1562.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1644.
  ) 
 Here is how much of TeX's memory you used:
- 14595 strings out of 481239
- 214792 string characters out of 5920377
- 790744 words of memory out of 5000000
- 28915 multiletter control sequences out of 15000+600000
- 553564 words of font info for 69 fonts, out of 8000000 for 9000
+ 14673 strings out of 481239
+ 216044 string characters out of 5920377
+ 791402 words of memory out of 5000000
+ 28967 multiletter control sequences out of 15000+600000
+ 553819 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,46p,1485b,2090s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
@@ -1309,11 +1320,12 @@ super/sfit1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fon
 ts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on revisado1.pdf (55 pages, 57919269 bytes).
+usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/esvect/vect10.pfb>
+Output written on revisado1.pdf (58 pages, 57936445 bytes).
 PDF statistics:
- 1496 PDF objects out of 1728 (max. 8388607)
- 1343 compressed objects within 14 object streams
- 603 named destinations out of 1000 (max. 500000)
+ 1546 PDF objects out of 1728 (max. 8388607)
+ 1389 compressed objects within 14 object streams
+ 619 named destinations out of 1000 (max. 500000)
  384 words of extra memory for PDF output out of 10000 (max. 10000000)
 
