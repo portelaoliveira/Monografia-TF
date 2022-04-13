@@ -28,11 +28,11 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Recursos computacionais}{34}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}pyGIMLi: Uma biblioteca de código aberto para modelagem e inversão em Geofísica}{35}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Estrutura do \emph {Software}}{41}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Exemplo de uma montagem de modelo sintético}{45}{subsubsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.3}Etapa experimental - Aquisição em local com alvo conhecido}{47}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Resultados e Discussão}{48}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Dados sintéticos - Estudos de casos}{48}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Dados de campo - Processamento e inversão dos dados sísmicos}{49}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Conclusões}{50}{section.5}%
-\contentsline {section}{Refer\^encias Bibliogr\'aficas}{51}{section*.23}%
-\contentsline {section}{\numberline {A}pyGIMLi: Biblioteca \textit {TravelTimeManager} utilizada para o desenvolvimento do \emph {Software}}{54}{appendix.A}%
+\contentsline {subsubsection}{\numberline {3.2.4}Exemplo de uma montagem de modelo sintético no InTTraPy}{45}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Etapa experimental - Aquisição em local com alvo conhecido}{49}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Resultados e Discussão}{50}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Dados sintéticos - Estudos de casos}{50}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Dados de campo - Processamento e inversão dos dados sísmicos}{51}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusões}{52}{section.5}%
+\contentsline {section}{Refer\^encias Bibliogr\'aficas}{53}{section*.25}%
+\contentsline {section}{\numberline {A}pyGIMLi: Biblioteca \textit {TravelTimeManager} utilizada para o desenvolvimento do \emph {Software}}{56}{appendix.A}%

@@ -1250,9 +1250,13 @@ A qualidade do ajuste para o método de inversão pode ser avaliada por meio de 
 	\label{fluxo_grama}
 \end{figure} 
 
-\subsubsection{Exemplo de uma montagem de modelo sintético}
+\subsubsection{Exemplo de uma montagem de modelo sintético no InTTraPy}
 
-A ideia para a montagem de modelos sintéticos de tomografia sísmica por tempo de percurso é por meio de um plano cartesiano (abscissas e ordenadas). Então, primeiramente, o usuário delimita a sua área de estudo informando os parâmetros da dimensão da área em relação ao eixo x e y, em metros. Em seguida, informar as dimensões do alvo no eixo x e y (em metros) e com base nas dimensões da área de estudo, o alvo é posicionado no centro da área de estudo de forma automática. Feito isso, o usuário entra posteriormente com os parâmetros que gera a geometria de aquisição, ou seja, posicionamento dos Geofones e Fontes na área de estudo. Essa geometria de aquisição é gerada informando os parâmetros de número de Geofones no eixo x e y e os espaçamento entre eles em metros (logo o total de Geofones é: \textbf{total de Geofones} = \textbf{N° de Geofones no eixo x} $\times$ \textbf{N° de Geofones no eixo y}). Para plotagem das Fontes na área de estudo, a ideia é a mesma dos Geofones (logo o total de Fontes é: \textbf{total de Fontes} = \textbf{N° de Fontes no eixo x} $\times$ \textbf{N° de Fontes no eixo y}). Lodo depois, o usuário informa onde quer posicionar o primeiro Geofone e Fonte (passando as coordenadas) e automaticamente todas os Geofones e Fontes são posicionadas na área de estudo. Por fim, o usuário informa o valor do refinamento para grade de inversão. Dito isso, a Figura~\ref{montagem_geometria} (página~\pageref{montagem_geometria}) mostra visualmente um esquema de como é a ideia dessa montagem de modelo sintético. Essa lógica também é válida para etapa de processamento de dados reais, visto que o usuário pode fazer seu modelo sintético com sua geometria de preferencia e aplicar em campo.
+A ideia para a montagem de modelos sintéticos de tomografia sísmica por tempo de percurso é por meio de um plano cartesiano (abscissas e ordenadas). Então, primeiramente, o usuário delimita a sua área de estudo informando os parâmetros da dimensão da área em relação ao eixo x e y, em metros. 
+
+Em seguida, informar as dimensões do alvo no eixo x e y (em metros) e com base nas dimensões da área de estudo, o alvo é posicionado no centro da área de estudo de forma automática. Feito isso, o usuário entra posteriormente com os parâmetros que gera a geometria de aquisição, ou seja, posicionamento dos Geofones e Fontes na área de estudo. Essa geometria de aquisição é gerada informando os parâmetros de número de Geofones no eixo x e y e os espaçamento entre eles em metros (logo o total de Geofones é: \textbf{total de Geofones} = \textbf{N° de Geofones no eixo x} $\times$ \textbf{N° de Geofones no eixo y}). Para plotagem das Fontes na área de estudo, a ideia é a mesma dos Geofones (logo o total de Fontes é: \textbf{total de Fontes} = \textbf{N° de Fontes no eixo x} $\times$ \textbf{N° de Fontes no eixo y}). 
+
+Lodo depois, o usuário informa onde quer posicionar o primeiro Geofone e Fonte (passando as coordenadas) e automaticamente todas os Geofones e Fontes são posicionadas na área de estudo. Por fim, o usuário informa o valor do refinamento para grade de inversão. Dito isso, a Figura~\ref{montagem_geometria} (página~\pageref{montagem_geometria}) mostra visualmente um esquema de como é a ideia dessa montagem de modelo sintético. Essa lógica também é válida para etapa de processamento de dados reais, visto que o usuário pode fazer seu modelo sintético com sua geometria de preferencia e aplicar em campo.
 
 
 \begin{figure}[!hbtp]
@@ -1267,6 +1271,70 @@ A ideia para a montagem de modelos sintéticos de tomografia sísmica por tempo 
 	\item[Exemplo] |\textit{Modelo sintético gerado no InTTraPy} 
 	
 	\hspace{0.5cm} \blindtext 
+	
+	\begin{table}[!hbtp]
+		\caption{Parâmetros utilizados para gerar o modelo sintético no InTTraPy. Observação: posteriormente, será feito uma atualização para que o usuário possa modelar outras geometrias para alvo.}
+		\centering
+		\label{parametros_dado_sintetico}
+		\begin{tabular}{@{}ll@{}}
+			\toprule
+			\multicolumn{1}{c}{Parâmetros} &  
+			\multicolumn{1}{c}{Valores}       \\ \midrule
+			\rowcolor[HTML]{EFEFEF} 
+			Dimensão da área de estudo no eixo x   
+			&  10.0 m \\
+			Dimensão da área de estudo no eixo y    
+			&  10.0  m \\
+			\rowcolor[HTML]{EFEFEF} 
+			Dimensão do alvo no eixo x         
+			&   1.0  m  \\
+			Dimensão do alvo no eixo y          
+			&    1.0 m   \\
+			\rowcolor[HTML]{EFEFEF} 
+			Espaçamento dos Geofones no eixo x 
+			&  1.0 m  \\
+			Espaçamento dos Geofones no eixo y         
+			&   1.0 m   \\
+			\rowcolor[HTML]{EFEFEF} 
+			Espaçamento das Fontes no eixo x    
+			&    4.0  m 	\\
+			Espaçamento das Fontes no eixo y           
+			&    6.0 m      \\
+			\rowcolor[HTML]{EFEFEF} 
+			Posição do primeiro Geofone no eixo x     
+			&    3.5 m       \\
+			Posição do primeiro Geofone no eixo y
+		    &    2.5 m      \\
+			\rowcolor[HTML]{EFEFEF} 
+			Posição da primeira Fonte no eixo x    
+			&     3.0 m   \\
+			Posição da primeira Fonte no eixo y        
+			&  2.0 m     \\
+			\rowcolor[HTML]{EFEFEF} 
+			Número de Geofones no eixo x     
+			&    4.0   	\\
+			Número de Geofones no eixo y
+			&    6.0     \\
+			\rowcolor[HTML]{EFEFEF} 
+			Número de Fontes no eixo x     
+			&    2.0    \\
+			Número de Fontes no eixo y
+			&    2.0    \\
+			\rowcolor[HTML]{EFEFEF} 
+			Refinamento para a grade de inversão     
+			&     0.25              
+			
+			\\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\begin{figure}[!hbtp]
+		\begin{center}
+			\includegraphics[scale=0.408]{Figuras/exemplo.png}
+		\end{center}
+		\caption{Resultado do modelo sintético gerado no InTTraPy.}
+		\label{dado_sintetico}
+	\end{figure} \newpage
 	
 \end{description}
 
