@@ -1090,33 +1090,105 @@ Para tomografia sísmica, os tempos de primeira chegada são calculados por um \
 
 \subsubsection{Estrutura do \emph{Software}}
 
-Todo o código foi escrito em Python (versão 3.8.10) utilizando a distribuição Anaconda (que é uma plataforma de distribuição Python de código aberto) e dessa plataforma usou-se o Visual Studio Code (VS Code) que é um editor de código de código aberto desenvolvido pela Microsoft. Os testes foram realizados em sistemas Windows 10 e Ubuntu 20.04.3 LTS (ambos de 64 bits). O InTTraPy (Invert Travel-Time Python) é dividido em dois módulos: InTTraPy sintético, para realização de estudos de casos sintéticos, e InTTraPy campo, para processar os dados adquiridos em campo. Um fluxo geral de operação sobre como usar o InTTraPy é mostrado na Figura~\ref{fluxo_grama} (página~\pageref{fluxo_grama}).
+Todo o código foi escrito em Python (versão 3.8.10) utilizando a distribuição Anaconda (que é uma plataforma de distribuição Python de código aberto). Nessa plataforma é possível criar um ambiente virtual e instalar todas as dependências necessárias para a criação do \textit{software}. Então foi criado um ambiente virtual, isso é feito porque é uma prática recomendada no mundo da programão para evitar conflitos com outras dependências. A partir disso, usou-se o Visual Studio Code (VS Code) que é um editor de código de código aberto desenvolvido pela Microsoft e que encontra-se presente nessa plataforma. 
+
+Os testes foram realizados em sistemas Windows 10 e Ubuntu 20.04.3 LTS (ambos de 64 bits). O InTTraPy (Invert Travel-Time Python) é dividido em dois módulos: InTTraPy sintético, para realização de estudos de casos sintéticos, e InTTraPy campo, para processar os dados adquiridos em campo. Um fluxo geral de operação sobre como usar o InTTraPy é mostrado na Figura~\ref{fluxo_grama} (página~\pageref{fluxo_grama}). \newpage
 
 \begin{description}
 	\item[InTTraPy] |\textit{Sintéticos} 
+	
+	\hspace{0.5cm} No desenvolvimento do módulo InTTraPy Sintético, começamos importando os pacotes necessários (\textit{matplotlib.pyplot}, \textit{numpy}, \textit{pygimli}, \textit{pygimli.meshtools} e \textit{pygimli.physics.traveltime}). Em seguida, foi desenvolvida a etapa que permite a construção da geometria de aquisição (permitindo estabelecer as posições dos geofones e um esquema de medição, que consiste em índices de fonte e receptor). Depois usamos o gerenciador \textit{TravelTime} e atribuímos velocidades de onda P. Para isso, criamos um mapa dos marcadores de células de 0 a 3 para velocidades (em m/s) e geramos um vetor de velocidade. Os cálculos de tempo de percurso funcionam em malhas não estruturadas e grades estruturadas. Logo, os dados sintéticos são simulados em uma malha não estruturada e invertidos em uma grade estruturada simples.
+	
+	
+	\hspace{0.5cm} Posteriormente, criamos um \textit{DataContainer} (para armazenar, carregar e salvar dados no formato de dados unificado GIMLi. Por padrão, os dados com índices predefinidos como `s', `g' e `t' são \textit{tokens} para números de fontes, geofones e tempo de percurso da onda direta.) vazio e o preenchemos com as posições dos sensores, todos os pares de fontes possíveis e seus tempos de percurso para o cenário que o usuário desejar simular.
+	
+	\hspace{0.5cm} A simulação direta é realizada com algumas linhas de código. Inicializamos uma instância do \textit{Refraction manager} e chamamos sua função \textit{simulate} com a malha, o esquema e o modelo de vagarosidade ($1/v$). Também adicionamos 0,1\% \textit{relative} e 10 microssegundos de ruído absoluto. Os nós secundários permitem simulações diretas e mais precisas (ver mais em \citealp{giroux2013task}). Logo depois, é criada uma grade estruturada como malha de inversão com a geometria informada pelo usuário. Configuramos também \textit{setRecalcJacobian(False)} para \textit{setRecalcJacobian(True)} para simular a inversão linear.
+	
+	\hspace{0.5cm} Por fim, é gerado o modelo e o resultado da inversão um ao lado do outro. Também é gerado um mapa do caminho que os raios percorreram. Todas as telas de plotagem podem ser exportadas como imagens de alta resolução.
+	
 \end{description}
 
-No desenvolvimento do módulo InTTraPy Sintético, começamos importando os pacotes necessários (\textit{matplotlib.pyplot}, \textit{numpy}, \textit{pygimli}, \textit{pygimli.meshtools} e \textit{pygimli.physics.
-traveltime}). Em seguida, foi desenvolvida a etapa que permite a construção da geometria de aquisição (que permite definimos as posições dos geofones e um esquema de medição, que consiste em índices de fonte e receptor). Depois usamos o gerenciador \textit{TravelTime} e atribuímos velocidades de onda P. Para isso, criamos um mapa dos marcadores de células de 0 a 3 para velocidades (em m/s) e geramos um vetor de velocidade. Os cálculos de tempo de percurso funcionam em malhas não estruturadas e grades estruturadas. Logo, os dados sintéticos são simulados em uma malha não estruturada e invertidos em uma grade estruturada simples.
-
-
-Posteriormente, criamos um \textit{DataContainer} (para armazenar, carregar e salvar dados no formato de dados unificado GIMLi. Por padrão, os dados com índices predefinidos como `s', `g' e `t' são \textit{tokens} para números de fontes, geofones e tempo de percurso da onda direta.) vazio e o preenchemos com as posições dos sensores e todos os pares de fontes possíveis para o cenário que o usuário desejar simular.
-
-A simulação direta é realizada com algumas linhas de código. Inicializamos uma instância do \textit{Refraction manager} e chamamos sua função \textit{simulate} com a malha, o esquema e o modelo de vagarosidade ($1/v$). Também adicionamos 0,1\% \textit{relative} e 10 microssegundos de ruído absoluto. Os nós secundários permitem simulações diretas e mais precisas (ver mais em \citealp{giroux2013task}). Logo depois, é criada uma grade estruturada como malha de inversão com a geometria informada pelo usuário. Configuramos também \textit{setRecalcJacobian(False)} para \textit{setRecalcJacobian(True)} para simular a inversão linear.
-
-Por fim, é gerado o modelo e o resultado da inversão um ao lado do outro. Também é gerado um mapa do caminho que os raios percorreram. 
 
 \begin{description}
 	\item[InTTraPy] |\textit{Campo} 
+	
+	\hspace{0.5cm} Para o desenvolvimento do módulo InTTraPy Campo, utilizou-se as mesmas etapas de desenvolvimento do sintético adaptando-o para receber os dados de campo (arquivos \textit{nome.vs}) com as informações dos tempos de chegada da onda direta, bem como, as informações dos parâmetros utilizados na aquisição.
+	
 \end{description}
 
-Para o desenvolvimento do módulo InTTraPy Campo, 
+Tendo isso em vista, o \textit{software} possui no momento, somente a parte do \textit{Back End} (a lógica de programação), a parte do \textit{Front-End} (parte visual com a qual os usuários podem interagir) será desenvolvida em um momento posterior. Mas o funcionamento do \textit{software} para o usuário funciona da seguinte forma: assim que o usuário inicializar o \textit{software}, é carregado uma tela com as opções de escolher o módulo do InTTraPy Sintético ou Campo. 
+
+Para o InTTraPy Sintético, o usuário entra com os parâmetros da Tabela~\ref{parametros} (página~\pageref{parametros}). Após informar os parâmetros, é gerado os dados com as informações das posições dos Geofones e Fontes que são salvas posteriormente no \textit{DataContainer}. Em seguida é feito o processamento e o usuário tem a opção de salvar os dados com as posições dos Geofones e Fontes em um arquivo J\textit{SON (JavaScript Object Notation)}. Em seguida, os modelos sintéticos de tomografia sísmica por tempo de percurso é gerado e os mapas podem ser exportados e a execução do \textit{software} pode ser finalizado.
+
+Para o InTTraPy Sintético, o usuário 
+
+\begin{table}[!hbtp]
+	\caption{Parâmetros que devem ser informados para gerar os modelos sintéticos.}
+	\centering
+	\label{parametros}
+	\begin{tabular}{@{}ll@{}}
+		\toprule
+		\multicolumn{1}{c}{Parâmetros} &  \\ \midrule
+		\rowcolor[HTML]{EFEFEF} 
+		Dimensão da área de estudo no eixo x (metros)   
+		&   
+		\\
+		Dimensão da área de estudo no eixo y (metros)   
+		& 
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Dimensão do alvo no eixo x (metros)         
+		&       
+		\\
+		Dimensão do alvo no eixo y (metros)         
+		&    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Espaçamento dos Geofones no eixo x (metros) &           
+		\\
+		Espaçamento dos Geofones no eixo y (metros)         &           
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Espaçamento das Fontes no eixo x (metros)    &                   
+		\\
+		Espaçamento das Fontes no eixo y (metros)           &    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Posição do primeiro Geofone no eixo x (metros)    &                   
+		\\
+		Posição do primeiro Geofone no eixo y (metros)    &    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Posição da primeira Fonte no eixo x (metros)    &                   
+		\\
+		Posição da primeira Fonte no eixo y (metros)        &    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Número de Geofones no eixo x     &                   
+		\\
+		Número de Geofones no eixo y
+		&    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Número de Fontes no eixo x     
+		&                   
+		\\
+		Número de Fontes no eixo y
+		&    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Refinamento para a grade de inversão     
+		&                   
+		    
+		                                 \\ \bottomrule
+	\end{tabular}
+\end{table}
 
 \begin{figure}[!hbtp]
 	\begin{center}
 		\includegraphics[scale=0.189]{Figuras/Portela_TCC.png}
 	\end{center}
-	\caption{Fluxo de operação geral com as etapas usadas em cada módulo para realizar a análise e processamento de dados de tomografia sísmica por tempo de percurso usando o InTTraPy.}
+	\caption{Fluxo de operação geral com as etapas usadas em cada módulo: Geração de modelos sintéticos de tomografia sísmica (InTTraPy Sintético) e processamento de dados de tempo de percurso gerando modelos reais de tomografia sísmica (InTTraPy Campo).}
 	\label{fluxo_grama}
 \end{figure} \newpage
 
