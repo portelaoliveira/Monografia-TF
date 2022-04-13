@@ -1112,7 +1112,7 @@ Os testes foram realizados em sistemas Windows 10 e Ubuntu 20.04.3 LTS (ambos de
 \begin{description}
 	\item[InTTraPy] |\textit{Campo} 
 	
-	\hspace{0.5cm} Para o desenvolvimento do módulo InTTraPy Campo, utilizou-se as mesmas etapas de desenvolvimento do sintético adaptando-o para receber os dados de campo (arquivos \textit{nome.vs}) com as informações dos tempos de chegada da onda direta, bem como, as informações dos parâmetros utilizados na aquisição.
+	\hspace{0.5cm} Para o desenvolvimento do módulo InTTraPy Campo, utilizou-se as mesmas etapas de desenvolvimento do sintético adaptando-o para receber os dados de campo (arquivos \textit{*.vs}) com as informações dos tempos de chegada da onda direta, bem como, as informações dos parâmetros utilizados na aquisição.
 	
 \end{description}
 
@@ -1184,7 +1184,9 @@ Para o InTTraPy Sintético, o usuário entra com os parâmetros da Tabela~\ref{p
 
 Para o InTTraPy Campo, o usuário tem a opção de carregar dados anteriores (ou seja, arquivos \textit{JSON} com as posições dos Geofones, Fontes e tempos de percurso). Ao carregar o arquivo, o usuário pode optar por modificar alguma informação referentes as posições de Geofones e/ou Fontes. Logo depois, os dados são processados e o usuário tem a opção de salvar os dados em \textit{JSON}. Logo após, os modelos reais de tomografia sísmica por tempo de percurso é gerado e os mapas podem ser exportados e a execução do \textit{software} pode ser finalizado. 
 
-Por outro lado, o usuário optando por não carregar dados anteriores, deve-se informar o parâmetros Tabela~\ref{parametros_campo} (página~\pageref{parametros_campo}). 
+Por outro lado, o usuário optando por não carregar dados anteriores, deve-se informar os parâmetros Tabela~\ref{parametros_campo} (página~\pageref{parametros_campo}). Logo, deve-se carregar os arquivos de campo (\textit{*.vs}) e em seguida é executado um código para verificar se os parâmetros de entrada e o arquivo de campo (contendo as informações de Geofones, Fontes e tempos de percurso da onda direta) são válidos. Se não for validado, é informado a causa do erro e novamente pede-se para entrar com os parâmetros, caso contrário, o processamento dos dados é realizado e o usuário tem a opção de escolher salvar os dados em um arquivo \textit{JSON}. Por fim, os modelos reais de tomografia sísmica por tempo de percurso é gerado e os mapas podem ser exportados e a execução do \textit{software} pode ser finalizado. 
+
+A qualidade do ajuste para o método de inversão pode ser avaliada por meio de erros \textit{RMS} e valor de $Chi^{2}$.
 
 \begin{table}[!hbtp]
 	\caption{Parâmetros que devem ser informados para gerar os modelos reais.}
@@ -1246,7 +1248,11 @@ Por outro lado, o usuário optando por não carregar dados anteriores, deve-se i
 	\end{center}
 	\caption{Fluxo de operação geral com as etapas usadas em cada módulo: Geração de modelos sintéticos de tomografia sísmica (InTTraPy Sintético) e processamento de dados de tempo de percurso gerando modelos reais de tomografia sísmica (InTTraPy Campo).}
 	\label{fluxo_grama}
-\end{figure} \newpage
+\end{figure} 
+
+\subsubsection{Exemplo de uma montagem de modelo sintético}
+
+\blindtext 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
