@@ -1252,7 +1252,23 @@ A qualidade do ajuste para o método de inversão pode ser avaliada por meio de 
 
 \subsubsection{Exemplo de uma montagem de modelo sintético}
 
-\blindtext 
+A ideia para a montagem de modelos sintéticos de tomografia sísmica por tempo de percurso é por meio de um plano cartesiano (abscissas e ordenadas). Então, primeiramente, o usuário delimita a sua área de estudo informando os parâmetros da dimensão da área em relação ao eixo x e y, em metros. Em seguida, informar as dimensões do alvo no eixo x e y (em metros) e com base nas dimensões da área de estudo, o alvo é posicionado no centro da área de estudo de forma automática. Feito isso, o usuário entra posteriormente com os parâmetros que gera a geometria de aquisição, ou seja, posicionamento dos Geofones e Fontes na área de estudo. Essa geometria de aquisição é gerada informando os parâmetros de número de Geofones no eixo x e y e os espaçamento entre eles em metros (logo o total de Geofones é: \textbf{total de Geofones} = \textbf{N° de Geofones no eixo x} $\times$ \textbf{N° de Geofones no eixo y}). Para plotagem das Fontes na área de estudo, a ideia é a mesma dos Geofones (logo o total de Fontes é: \textbf{total de Fontes} = \textbf{N° de Fontes no eixo x} $\times$ \textbf{N° de Fontes no eixo y}). Lodo depois, o usuário informa onde quer posicionar o primeiro Geofone e Fonte (passando as coordenadas) e automaticamente todas os Geofones e Fontes são posicionadas na área de estudo. Por fim, o usuário informa o valor do refinamento para grade de inversão. Dito isso, a Figura~\ref{montagem_geometria} (página~\pageref{montagem_geometria}) mostra visualmente um esquema de como é a ideia dessa montagem de modelo sintético. Essa lógica também é válida para etapa de processamento de dados reais, visto que o usuário pode fazer seu modelo sintético com sua geometria de preferencia e aplicar em campo.
+
+
+\begin{figure}[!hbtp]
+	\begin{center}
+		\includegraphics[scale=0.65]{Figuras/geometria.png}
+	\end{center}
+	\caption{Esquema de montagem para modelos sintéticos. Deve-se atentar que a contagem dos canais e das fontes para qualquer modelo sintético e posteriormente para a aquisição de dados, são feitas como é mostrado nesse esquema. Nessa ilustração temos uma área de estudo de 10 $\times$ 10 e um alvo de 1 $\times$ 1. O total de geofones é 25 e de fontes são 4. A plotagem de fontes e geofones pelo \textit{software} são realizadas conforme é mostrado na ilustração, então, para aquisição, o equipamento deve ser posicionado pensando nessa lógica do InTTraPy.}
+	\label{montagem_geometria}
+\end{figure} \newpage
+
+\begin{description}
+	\item[Exemplo] |\textit{Modelo sintético gerado no InTTraPy} 
+	
+	\hspace{0.5cm} \blindtext 
+	
+\end{description}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
