@@ -1119,11 +1119,9 @@ Os testes foram realizados em sistemas Windows 10 e Ubuntu 20.04.3 LTS (ambos de
 Tendo isso em vista, o \textit{software} possui no momento, somente a parte do \textit{Back End} (a lógica de programação), a parte do \textit{Front-End} (parte visual com a qual os usuários podem interagir) será desenvolvida em um momento posterior. Mas o funcionamento do \textit{software} para o usuário funciona da seguinte forma: assim que o usuário inicializar o \textit{software}, é carregado uma tela com as opções de escolher o módulo do InTTraPy Sintético ou Campo. 
 
 Para o InTTraPy Sintético, o usuário entra com os parâmetros da Tabela~\ref{parametros} (página~\pageref{parametros}). Após informar os parâmetros, é gerado os dados com as informações das posições dos Geofones e Fontes que são salvas posteriormente no \textit{DataContainer}. Em seguida é feito o processamento e o usuário tem a opção de salvar os dados com as posições dos Geofones e Fontes em um arquivo J\textit{SON (JavaScript Object Notation)}. Em seguida, os modelos sintéticos de tomografia sísmica por tempo de percurso é gerado e os mapas podem ser exportados e a execução do \textit{software} pode ser finalizado.
-
-Para o InTTraPy Sintético, o usuário 
-
+ 
 \begin{table}[!hbtp]
-	\caption{Parâmetros que devem ser informados para gerar os modelos sintéticos.}
+	\caption{Parâmetros que devem ser informados para gerar os modelos sintéticos. Observação: posteriormente, será feito uma atualização para que o usuário possa modelar outras geometrias para alvo.}
 	\centering
 	\label{parametros}
 	\begin{tabular}{@{}ll@{}}
@@ -1181,6 +1179,64 @@ Para o InTTraPy Sintético, o usuário
 		&                   
 		    
 		                                 \\ \bottomrule
+	\end{tabular}
+\end{table}
+
+Para o InTTraPy Campo, o usuário tem a opção de carregar dados anteriores (ou seja, arquivos \textit{JSON} com as posições dos Geofones, Fontes e tempos de percurso). Ao carregar o arquivo, o usuário pode optar por modificar alguma informação referentes as posições de Geofones e/ou Fontes. Logo depois, os dados são processados e o usuário tem a opção de salvar os dados em \textit{JSON}. Logo após, os modelos reais de tomografia sísmica por tempo de percurso é gerado e os mapas podem ser exportados e a execução do \textit{software} pode ser finalizado. 
+
+Por outro lado, o usuário optando por não carregar dados anteriores, deve-se informar o parâmetros Tabela~\ref{parametros_campo} (página~\pageref{parametros_campo}). 
+
+\begin{table}[!hbtp]
+	\caption{Parâmetros que devem ser informados para gerar os modelos reais.}
+	\centering
+	\label{parametros_campo}
+	\begin{tabular}{@{}ll@{}}
+		\toprule
+		\multicolumn{1}{c}{Parâmetros} &  \\ \midrule
+		\rowcolor[HTML]{EFEFEF} 
+		Dimensão da área de estudo no eixo x (metros)   
+		&   
+		\\
+		Dimensão da área de estudo no eixo y (metros)   
+		& 
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Espaçamento dos Geofones no eixo x (metros) &           
+		\\
+		Espaçamento dos Geofones no eixo y (metros)         &           
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Espaçamento das Fontes no eixo x (metros)    &                   
+		\\
+		Espaçamento das Fontes no eixo y (metros)           &    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Posição do primeiro Geofone no eixo x (metros)    &                   
+		\\
+		Posição do primeiro Geofone no eixo y (metros)    &    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Posição da primeira Fonte no eixo x (metros)    &                   
+		\\
+		Posição da primeira Fonte no eixo y (metros)        &    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Número de Geofones no eixo x     &                   
+		\\
+		Número de Geofones no eixo y
+		&    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Número de Fontes no eixo x     
+		&                   
+		\\
+		Número de Fontes no eixo y
+		&    
+		\\
+		\rowcolor[HTML]{EFEFEF} 
+		Refinamento para a grade de inversão     
+		&                   	
+		                          \\ \bottomrule
 	\end{tabular}
 \end{table}
 
