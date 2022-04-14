@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.20)  13 APR 2022 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.20)  13 APR 2022 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1043,13 +1043,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--460
 
  []
 
-<Figuras/tomografia.png, id=419, 575.14874pt x 446.66875pt>
+<Figuras/tomografia.png, id=432, 575.14874pt x 446.66875pt>
 File: Figuras/tomografia.png Graphic file (type png)
 <use Figuras/tomografia.png>
 Package pdftex.def Info: Figuras/tomografia.png  used on input line 484.
 (pdftex.def)             Requested size: 258.81454pt x 200.99907pt.
 [16] [17 <./Figuras/tomografia.png>] [18] [19] [20]
-<Figuras/problema_direto_x_inverso.png, id=514, 1068.99374pt x 314.17375pt>
+<Figuras/problema_direto_x_inverso.png, id=527, 1068.99374pt x 314.17375pt>
 File: Figuras/problema_direto_x_inverso.png Graphic file (type png)
 <use Figuras/problema_direto_x_inverso.png>
 Package pdftex.def Info: Figuras/problema_direto_x_inverso.png  used on input l
@@ -1060,18 +1060,18 @@ Overfull \hbox (6.69046pt too wide) in paragraph at lines 603--604
  [] 
  []
 
-<Figuras/material.png, id=519, 693.59125pt x 666.49pt>
+<Figuras/material.png, id=532, 693.59125pt x 666.49pt>
 File: Figuras/material.png Graphic file (type png)
 <use Figuras/material.png>
 Package pdftex.def Info: Figuras/material.png  used on input line 611.
 (pdftex.def)             Requested size: 221.95374pt x 213.28116pt.
 [21 <./Figuras/problema_direto_x_inverso.png> <./Figuras/material.png>]
-<Figuras/modelos.png, id=538, 851.18pt x 259.97125pt>
+<Figuras/modelos.png, id=551, 851.18pt x 259.97125pt>
 File: Figuras/modelos.png Graphic file (type png)
 <use Figuras/modelos.png>
 Package pdftex.def Info: Figuras/modelos.png  used on input line 630.
 (pdftex.def)             Requested size: 425.58894pt x 129.9853pt.
-<Figuras/tempo_percurso.png, id=545, 451.6875pt x 380.42125pt>
+<Figuras/tempo_percurso.png, id=558, 451.6875pt x 380.42125pt>
 File: Figuras/tempo_percurso.png Graphic file (type png)
 <use Figuras/tempo_percurso.png>
 Package pdftex.def Info: Figuras/tempo_percurso.png  used on input line 650.
@@ -1082,18 +1082,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 664--666
 
  []
 
-<Figuras/diagrama.png, id=559, 511.9125pt x 279.0425pt>
+<Figuras/diagrama.png, id=573, 511.9125pt x 279.0425pt>
 File: Figuras/diagrama.png Graphic file (type png)
 <use Figuras/diagrama.png>
 Package pdftex.def Info: Figuras/diagrama.png  used on input line 674.
 (pdftex.def)             Requested size: 307.14987pt x 167.42679pt.
 [23 <./Figuras/tempo_percurso.png>] [24 <./Figuras/diagrama.png>]
-<Figuras/raios.png, id=605, 896.34875pt x 457.71pt>
+<Figuras/raios.png, id=618, 896.34875pt x 457.71pt>
 File: Figuras/raios.png Graphic file (type png)
 <use Figuras/raios.png>
 Package pdftex.def Info: Figuras/raios.png  used on input line 706.
 (pdftex.def)             Requested size: 448.17328pt x 228.85445pt.
-<Figuras/matriz_convergencia.png, id=610, 917.4275pt x 684.5575pt>
+<Figuras/matriz_convergencia.png, id=623, 917.4275pt x 684.5575pt>
 File: Figuras/matriz_convergencia.png Graphic file (type png)
 <use Figuras/matriz_convergencia.png>
 Package pdftex.def Info: Figuras/matriz_convergencia.png  used on input line 71
@@ -1104,7 +1104,7 @@ Overfull \hbox (5.74474pt too wide) in paragraph at lines 714--715
  [] 
  []
 
-<Figuras/raios_convergencia.png, id=615, 1125.20375pt x 584.1825pt>
+<Figuras/raios_convergencia.png, id=628, 1125.20375pt x 584.1825pt>
 File: Figuras/raios_convergencia.png Graphic file (type png)
 <use Figuras/raios_convergencia.png>
 Package pdftex.def Info: Figuras/raios_convergencia.png  used on input line 722
@@ -1115,7 +1115,7 @@ Overfull \hbox (19.61447pt too wide) in paragraph at lines 722--723
  [] 
  []
 
-<Figuras/ipixel.png, id=620, 1164.35pt x 572.1375pt>
+<Figuras/ipixel.png, id=633, 1164.35pt x 572.1375pt>
 File: Figuras/ipixel.png Graphic file (type png)
 <use Figuras/ipixel.png>
 Package pdftex.def Info: Figuras/ipixel.png  used on input line 730.
@@ -1144,7 +1144,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 791--792
  []
 
 [29]
-<Figuras/area-estudo.png, id=678, 3316.13907pt x 4841.33719pt>
+<Figuras/area-estudo.png, id=691, 3316.13907pt x 4841.33719pt>
 File: Figuras/area-estudo.png Graphic file (type png)
 <use Figuras/area-estudo.png>
 Package pdftex.def Info: Figuras/area-estudo.png  used on input line 823.
@@ -1152,7 +1152,7 @@ Package pdftex.def Info: Figuras/area-estudo.png  used on input line 823.
  [30
 
  <./Figuras/area-estudo.png>]
-<Figuras/geologia.jpeg, id=690, 1284.8pt x 1069.9975pt>
+<Figuras/geologia.jpeg, id=704, 1284.8pt x 1069.9975pt>
 File: Figuras/geologia.jpeg Graphic file (type jpg)
 <use Figuras/geologia.jpeg>
 Package pdftex.def Info: Figuras/geologia.jpeg  used on input line 841.
@@ -1165,7 +1165,7 @@ Overfull \hbox (22.40067pt too wide) in paragraph at lines 841--842
 [31
 
  <./Figuras/geologia.jpeg>]
-<Figuras/solo.png, id=713, 842.14626pt x 942.52126pt>
+<Figuras/solo.png, id=726, 842.14626pt x 942.52126pt>
 File: Figuras/solo.png Graphic file (type png)
 <use Figuras/solo.png>
 Package pdftex.def Info: Figuras/solo.png  used on input line 865.
@@ -1180,117 +1180,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 923--925
 
  []
 
-<Figuras/arquitetura.png, id=747, 472.76625pt x 559.08875pt>
+<Figuras/arquitetura.png, id=760, 472.76625pt x 559.08875pt>
 File: Figuras/arquitetura.png Graphic file (type png)
 <use Figuras/arquitetura.png>
 Package pdftex.def Info: Figuras/arquitetura.png  used on input line 934.
 (pdftex.def)             Requested size: 212.74284pt x 251.5876pt.
 [35] [36 <./Figuras/arquitetura.png>]
-<Figuras/inversao.png, id=778, 645.41125pt x 607.26875pt>
+<Figuras/inversao.png, id=791, 645.41125pt x 607.26875pt>
 File: Figuras/inversao.png Graphic file (type png)
 <use Figuras/inversao.png>
 Package pdftex.def Info: Figuras/inversao.png  used on input line 965.
 (pdftex.def)             Requested size: 387.24974pt x 364.36406pt.
  [37 <./Figuras/inversao.png>] [38]
 [39] [40] [41] [42]
-<Figuras/Portela_TCC.png, id=887, 2893.30937pt x 2958.05125pt>
+<Figuras/Portela_TCC.png, id=900, 2893.30937pt x 2958.05125pt>
 File: Figuras/Portela_TCC.png Graphic file (type png)
 <use Figuras/Portela_TCC.png>
-Package pdftex.def Info: Figuras/Portela_TCC.png  used on input line 1247.
+Package pdftex.def Info: Figuras/Portela_TCC.png  used on input line 1249.
 (pdftex.def)             Requested size: 546.82071pt x 559.0566pt.
 
-Overfull \hbox (93.85281pt too wide) in paragraph at lines 1247--1248
+Overfull \hbox (93.85281pt too wide) in paragraph at lines 1249--1250
  [] 
  []
 
 [43] [44 <./Figuras/Portela_TCC.png>]
-<Figuras/geometria.png, id=900, 736.4313pt x 470.4777pt>
+<Figuras/geometria.png, id=913, 736.4313pt x 470.4777pt>
 File: Figuras/geometria.png Graphic file (type png)
 <use Figuras/geometria.png>
-Package pdftex.def Info: Figuras/geometria.png  used on input line 1264.
+Package pdftex.def Info: Figuras/geometria.png  used on input line 1266.
 (pdftex.def)             Requested size: 478.67468pt x 305.80687pt.
 
-Overfull \hbox (25.70679pt too wide) in paragraph at lines 1264--1265
+Overfull \hbox (25.70679pt too wide) in paragraph at lines 1266--1267
  [] 
  []
 
 [45] [46 <./Figuras/geometria.png>]
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1274.
+(blindtext)                 on input line 1276.
 
-<Figuras/exemplo.png, id=911, 1391.1975pt x 1135.24126pt>
+<Figuras/exemplo.png, id=924, 1391.1975pt x 1135.24126pt>
 File: Figuras/exemplo.png Graphic file (type png)
 <use Figuras/exemplo.png>
-Package pdftex.def Info: Figuras/exemplo.png  used on input line 1333.
+Package pdftex.def Info: Figuras/exemplo.png  used on input line 1338.
 (pdftex.def)             Requested size: 567.61382pt x 463.1827pt.
 
-Overfull \hbox (114.64592pt too wide) in paragraph at lines 1333--1334
+Overfull \hbox (114.64592pt too wide) in paragraph at lines 1338--1339
  [] 
  []
 
 [47] [48 <./Figuras/exemplo.png>]
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1347.
+(blindtext)                 on input line 1352.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1349.
+(blindtext)                 on input line 1354.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1350.
+(blindtext)                 on input line 1355.
 
 Excluding 'comment' comment. Excluding 'comment' comment. [49]
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1395.
+(blindtext)                 on input line 1400.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1397.
+(blindtext)                 on input line 1402.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1398.
+(blindtext)                 on input line 1403.
 
 Excluding 'comment' comment. [50
 
 ]
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1429.
+(blindtext)                 on input line 1434.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1431.
+(blindtext)                 on input line 1436.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1432.
+(blindtext)                 on input line 1437.
 
 [51
 
 ]
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1441.
+(blindtext)                 on input line 1446.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1443.
+(blindtext)                 on input line 1448.
 
 
 Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 1444.
+(blindtext)                 on input line 1449.
 
 [52
 
 ] (./revisado1.bbl [53
 
 ] [54]) [55]
-Overfull \hbox (8.81082pt too wide) in paragraph at lines 1459--1459
+Overfull \hbox (8.81082pt too wide) in paragraph at lines 1464--1464
 []\T1/cmr/bx/n/17.28 pyGIMLi: Bi-bli-o-teca \T1/cmr/bx/it/17.28 Tra-vel-Ti-me-M
 a-na-ger \T1/cmr/bx/n/17.28 uti-li-zada
  []
@@ -1299,17 +1299,17 @@ a-na-ger \T1/cmr/bx/n/17.28 uti-li-zada
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 1462.
+nput line 1467.
  [56
 
 ] [57]
 [58] [59] [60] [61] [62] [63] [64] [65]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1886.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1891.
  [66]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1886.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1891.
  (./revisado1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1886.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1886.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1891.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1891.
 
 Package rerunfilecheck Info: File `revisado1.out' has not changed.
 (rerunfilecheck)             Checksum: 86A5D70F74E5D73BFB3638E7C68D948D;3000.
@@ -1318,12 +1318,12 @@ Package rerunfilecheck Info: File `revisado1.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1886.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1891.
  ) 
 Here is how much of TeX's memory you used:
  14717 strings out of 481239
  216809 string characters out of 5920377
- 796025 words of memory out of 5000000
+ 798853 words of memory out of 5000000
  28992 multiletter control sequences out of 15000+600000
  554160 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1348,10 +1348,10 @@ ts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/esvect/vect10.pfb>
-Output written on revisado1.pdf (66 pages, 59011283 bytes).
+Output written on revisado1.pdf (66 pages, 59013190 bytes).
 PDF statistics:
- 1631 PDF objects out of 1728 (max. 8388607)
- 1459 compressed objects within 15 object streams
+ 1644 PDF objects out of 1728 (max. 8388607)
+ 1472 compressed objects within 15 object streams
  634 named destinations out of 1000 (max. 500000)
  407 words of extra memory for PDF output out of 10000 (max. 10000000)
 

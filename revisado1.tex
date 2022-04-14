@@ -1177,7 +1177,9 @@ Para o InTTraPy Sintético, o usuário entra com os parâmetros da Tabela~\ref{p
 		\rowcolor[HTML]{EFEFEF} 
 		Refinamento para a grade de inversão     
 		&                   
-		    
+		\\
+		Intervalo de velocidade para o modelo (m/s)
+		&      
 		                                 \\ \bottomrule
 	\end{tabular}
 \end{table}
@@ -1276,7 +1278,7 @@ Lodo depois, o usuário informa onde quer posicionar o primeiro Geofone e Fonte 
 		\caption{Parâmetros utilizados para gerar o modelo sintético no InTTraPy. Observação: posteriormente, será feito uma atualização para que o usuário possa modelar outras geometrias para alvo.}
 		\centering
 		\label{parametros_dado_sintetico}
-		\begin{tabular}{@{}ll@{}}
+		\begin{tabular}{@{}lc@{}}
 			\toprule
 			\multicolumn{1}{c}{Parâmetros} &  
 			\multicolumn{1}{c}{Valores}       \\ \midrule
@@ -1323,6 +1325,9 @@ Lodo depois, o usuário informa onde quer posicionar o primeiro Geofone e Fonte 
 			\rowcolor[HTML]{EFEFEF} 
 			Refinamento para a grade de inversão     
 			&     0.25              
+			\\
+			Intervalo de velocidade para o modelo 
+			&    2000, 2300, 1700 m/s
 			
 			\\ \bottomrule
 		\end{tabular}
@@ -1332,7 +1337,7 @@ Lodo depois, o usuário informa onde quer posicionar o primeiro Geofone e Fonte 
 		\begin{center}
 			\includegraphics[scale=0.408]{Figuras/exemplo.png}
 		\end{center}
-		\caption{Resultado do modelo sintético gerado no InTTraPy.}
+		\caption{Resultado do modelo sintético gerado no InTTraPy. A) É a primeira figura gerada. Nela é apresentada o mapa com as dimensões da área de estudo e do alvo. É informado uma escala de velocidade em m/s para o modelo para que seja recuperado na inversão. B) É a segunda figura gerada. Nesta, encontra-se o mapa da grade estruturada como malha de inversão (seguindo as dimensão da área de estudo) com a plotagem dos geofones e das fontes. Os pontos vermelhos representam as fontes e os triângulos pretos para baixo representam os geofones. C) É a terceira figura gerada. No lado esquerdo é o mapa com a malha não estruturada com toda a geometria gerada pela entrada dos parâmetros e no lado direito é o resultado da inversão. D) É a terceira figura gerada. Nesse mapa é plotado o caminho percorrido pelos raios saindo da fonte e sendo registrado pelos geofones, mostrando como são atraídos pela anomalia de alta velocidade (alvo) enquanto contornam a região de baixa velocidade.}
 		\label{dado_sintetico}
 	\end{figure} \newpage
 	
