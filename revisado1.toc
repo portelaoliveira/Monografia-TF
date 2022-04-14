@@ -28,7 +28,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Recursos computacionais}{34}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}pyGIMLi: Uma biblioteca de código aberto para modelagem e inversão em Geofísica}{35}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Estrutura do \emph {Software}}{41}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Exemplo de uma montagem de modelo sintético no InTTraPy}{45}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4}Exemplo de uma montagem de modelo sintético de tomografia sísmica por tempo de percurso no InTTraPy}{45}{subsubsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.3}Etapa experimental - Aquisição em local com alvo conhecido}{49}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Resultados e Discussão}{50}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Dados sintéticos - Estudos de casos}{50}{subsection.4.1}%

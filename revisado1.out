@@ -27,7 +27,7 @@
 \BOOKMARK [3][-]{subsubsection.3.2.1}{Recursos computacionais}{subsection.3.2}% 27
 \BOOKMARK [3][-]{subsubsection.3.2.2}{pyGIMLi: Uma biblioteca de c\363digo aberto para modelagem e invers\343o em Geof\355sica}{subsection.3.2}% 28
 \BOOKMARK [3][-]{subsubsection.3.2.3}{Estrutura do Software}{subsection.3.2}% 29
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Exemplo de uma montagem de modelo sint\351tico no InTTraPy}{subsection.3.2}% 30
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Exemplo de uma montagem de modelo sint\351tico de tomografia s\355smica por tempo de percurso no InTTraPy}{subsection.3.2}% 30
 \BOOKMARK [2][-]{subsection.3.3}{Etapa experimental - Aquisi\347\343o em local com alvo conhecido}{section.3}% 31
 \BOOKMARK [1][-]{section.4}{Resultados e Discuss\343o}{}% 32
 \BOOKMARK [2][-]{subsection.4.1}{Dados sint\351ticos - Estudos de casos}{section.4}% 33

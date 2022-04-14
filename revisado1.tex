@@ -1252,7 +1252,7 @@ A qualidade do ajuste para o método de inversão pode ser avaliada por meio de 
 	\label{fluxo_grama}
 \end{figure} 
 
-\subsubsection{Exemplo de uma montagem de modelo sintético no InTTraPy}
+\subsubsection{Exemplo de uma montagem de modelo sintético de tomografia sísmica por tempo de percurso no InTTraPy}
 
 A ideia para a montagem de modelos sintéticos de tomografia sísmica por tempo de percurso é por meio de um plano cartesiano (abscissas e ordenadas). Então, primeiramente, o usuário delimita a sua área de estudo informando os parâmetros da dimensão da área em relação ao eixo x e y, em metros. 
 
@@ -1265,14 +1265,16 @@ Lodo depois, o usuário informa onde quer posicionar o primeiro Geofone e Fonte 
 	\begin{center}
 		\includegraphics[scale=0.65]{Figuras/geometria.png}
 	\end{center}
-	\caption{Esquema de montagem para modelos sintéticos. Deve-se atentar que a contagem dos canais e das fontes para qualquer modelo sintético e posteriormente para a aquisição de dados, são feitas como é mostrado nesse esquema. Nessa ilustração temos uma área de estudo de 10 $\times$ 10 e um alvo de 1 $\times$ 1. O total de geofones é 25 e de fontes são 4. A plotagem de fontes e geofones pelo \textit{software} são realizadas conforme é mostrado na ilustração, então, para aquisição, o equipamento deve ser posicionado pensando nessa lógica do InTTraPy.}
+	\caption{Esquema de montagem para modelos sintéticos. Deve-se atentar que a contagem dos canais e das fontes para qualquer modelo sintético e posteriormente para a aquisição de dados, são feitas como é mostrado nesse esquema. Nessa ilustração temos uma área de estudo de 10 $\times$ 10 metros e um alvo de 1 $\times$ 1 metros. O total de geofones é 25 e de fontes são 4. A plotagem de fontes e geofones pelo \textit{software} são realizadas conforme é mostrado na ilustração, então, para aquisição, o equipamento deve ser posicionado pensando nessa lógica do InTTraPy.}
 	\label{montagem_geometria}
 \end{figure} \newpage
 
 \begin{description}
 	\item[Exemplo] |\textit{Modelo sintético gerado no InTTraPy} 
 	
-	\hspace{0.5cm} \blindtext 
+	\hspace{0.5cm} Na Figura~\ref{dado_sintetico} (página~\pageref{dado_sintetico}) é apresentado um exemplo de modelo sintético de tomografia sísmica por tempo de percurso gerado a partir das etapas de funcionamento do InTTraPy explicadas anteriormente. Então, para esse modelo, os valores introduzidos nos parâmetros encontram-se disponíveis na Tabela~\ref{parametros_dado_sintetico} (página~\pageref{parametros_dado_sintetico}). 
+	
+	\hspace{0.5cm} A dimensão da área de estudo é 10 $\times$ 10 metros com um alvo de dimensão 1 $\times$ 1 metro. Utilizou-se um total de 24 geofones espaçados em 1 metro e com 4 fontes com espaçamento de 4 metros no eixo x e 6 metros no eixo y. Para o processo de inversão, o \textit{software} realizou para essa geometria 2 interações com erro RMS igual a $0.65\%$ e $Chi^{2}$ igual a $0.70$.
 	
 	\begin{table}[!hbtp]
 		\caption{Parâmetros utilizados para gerar o modelo sintético no InTTraPy. Observação: posteriormente, será feito uma atualização para que o usuário possa modelar outras geometrias para alvo.}
@@ -1337,7 +1339,7 @@ Lodo depois, o usuário informa onde quer posicionar o primeiro Geofone e Fonte 
 		\begin{center}
 			\includegraphics[scale=0.408]{Figuras/exemplo.png}
 		\end{center}
-		\caption{Resultado do modelo sintético gerado no InTTraPy. A) É a primeira figura gerada. Nela é apresentada o mapa com as dimensões da área de estudo e do alvo. É informado uma escala de velocidade em m/s para o modelo para que seja recuperado na inversão. B) É a segunda figura gerada. Nesta, encontra-se o mapa da grade estruturada como malha de inversão (seguindo as dimensão da área de estudo) com a plotagem dos geofones e das fontes. Os pontos vermelhos representam as fontes e os triângulos pretos para baixo representam os geofones. C) É a terceira figura gerada. No lado esquerdo é o mapa com a malha não estruturada com toda a geometria gerada pela entrada dos parâmetros e no lado direito é o resultado da inversão. D) É a terceira figura gerada. Nesse mapa é plotado o caminho percorrido pelos raios saindo da fonte e sendo registrado pelos geofones, mostrando como são atraídos pela anomalia de alta velocidade (alvo) enquanto contornam a região de baixa velocidade.}
+		\caption{Resultado do modelo sintético gerado no InTTraPy. A) É a primeira figura gerada. Nela é apresentada o mapa com as dimensões da área de estudo e do alvo. É informado o parâmetro de escala de velocidade em m/s para o modelo para que seja recuperado na inversão. B) É a segunda figura gerada. Nesta, encontra-se o mapa da grade estruturada como malha de inversão (seguindo as dimensão da área de estudo) com a plotagem dos geofones e das fontes. Os pontos vermelhos representam as fontes e os triângulos pretos para baixo representam os geofones. C) É a terceira figura gerada. No lado esquerdo é o mapa com a malha não estruturada com toda a geometria gerada pela entrada dos parâmetros e no lado direito é o resultado da inversão. D) É a terceira figura gerada. Nesse mapa é plotado o caminho percorrido pelos raios saindo da fonte e sendo registrado pelos geofones, mostrando como são atraídos pela anomalia de alta velocidade (alvo) enquanto contornam a região de baixa velocidade.}
 		\label{dado_sintetico}
 	\end{figure} \newpage
 	
